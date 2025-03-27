@@ -6,7 +6,7 @@ const Register = () => {
         name: "",
         email: "",
         password: "",
-        role: "student",
+        role: "customer",
         image: "",
     });
     const [error, setError] = useState("");

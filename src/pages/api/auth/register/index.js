@@ -9,6 +9,7 @@ export default async function handler(req, res) {
     try {
         await connectDB();
         const { name, email, password, role, image } = req.body;
+       
 
         if (!name || !email || !password) {
             return res.status(400).json({ error: "All fields are required" });
@@ -24,6 +25,7 @@ export default async function handler(req, res) {
 
         return res.status(201).json({ message: "User registered successfully" });
     } catch (error) {
+        console.log(req.body);
         console.error("❌ Registration Error:", error);
         return res.status(500).json({ error: "Internal Server Error" });
     }
