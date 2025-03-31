@@ -7,6 +7,7 @@ import SectionHolder from "@/components/mainHome/sectionHolder";
 import PopularTour from "@/components/mainHome/popularTour"
 import CardComponent from "@/components/mainHome/cardComponent"
 import HeroCrousel from "@/components/mainHome/heroCrousel";
+import Advanture from '@/components/advanture'
 import HirstoricalArchetechture from '../components/mainHome/historicalArchetechture'
 
 const geistSans = Geist({
@@ -28,6 +29,7 @@ export default function Home() {
       <SectionHolder/>
       <PopularTour/> 
       <CardComponent/>
+      <Advanture/>
       {/* <HirstoricalArchetechture/> */}
       <Login/>
     </div>
