@@ -4,6 +4,9 @@ import Login from "./login";
 import HeroSection from '../components/mainHome/heroSection'
 import Header from '../components/mainHome/header'
 import SectionHolder from "@/components/mainHome/sectionHolder";
+import PopularTour from "@/components/mainHome/popularTour"
+import CardComponent from "@/components/mainHome/cardComponent"
+import HeroCrousel from "@/components/mainHome/heroCrousel";
 import HirstoricalArchetechture from '../components/mainHome/historicalArchetechture'
 
 const geistSans = Geist({
@@ -19,10 +22,13 @@ const geistMono = Geist_Mono({
 export default function Home() {
   return (
     <div>
-      <Header/>
-      <HeroSection/>
+      {/* <Header/> */}
+      <HeroCrousel/>
+      {/* <HeroSection/> */}
       <SectionHolder/>
-      <HirstoricalArchetechture/>
+      <PopularTour/> 
+      <CardComponent/>
+      {/* <HirstoricalArchetechture/> */}
       <Login/>
     </div>
   );
