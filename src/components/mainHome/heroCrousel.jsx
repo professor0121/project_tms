@@ -1,44 +1,84 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 
 const HeroCarousel = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
-  const images = [
-    "https://placehold.co/1550x850",
-    "https://placehold.co/1550x850",
-    "https://placehold.co/1550x850",
-    "https://placehold.co/1550x850",
-    "https://placehold.co/1550x850"
+  const slideInterval = 5000; // Auto-slide interval in milliseconds (5 seconds)
+
+  const slides = [
+    {
+      image: "https://placehold.co/1550x850",
+      location: "INDORE",
+      description: "Explore the beautiful city of Indore known for its rich culture and history.",
+      link: "#indore"
+    },
+    {
+      image: "https://placehold.co/1550x850",
+      location: "SAGAR",
+      description: "Discover the serene landscapes and historical monuments of Sagar.",
+      link: "#sagar"
+    },
+    {
+      image: "https://placehold.co/1550x850",
+      location: "JABALPUR",
+      description: "Visit Jabalpur for its mesmerizing waterfalls and rich heritage.",
+      link: "#jabalpur"
+    },
+    {
+      image: "https://placehold.co/1550x850",
+      location: "BINA",
+      description: "Experience the calm and beautiful nature of Bina.",
+      link: "#bina"
+    }
   ];
 
   const prevSlide = () => {
-    const newIndex = (currentIndex === 0) ? images.length - 1 : currentIndex - 1;
+    const newIndex = (currentIndex === 0) ? slides.length - 1 : currentIndex - 1;
     setCurrentIndex(newIndex);
   };
 
   const nextSlide = () => {
-    const newIndex = (currentIndex === images.length - 1) ? 0 : currentIndex + 1;
+    const newIndex = (currentIndex === slides.length - 1) ? 0 : currentIndex + 1;
     setCurrentIndex(newIndex);
   };
 
+  useEffect(() => {
+    const interval = setInterval(nextSlide, slideInterval);
+    return () => clearInterval(interval); // Cleanup on unmount
+  }, [currentIndex]);
+
   return (
     <div className="relative w-full h-screen overflow-hidden">
-      <div className="w-full h-full relative">
-        {images.map((image, index) => (
-          <div
+      <div 
+        className="flex transition-transform duration-1000 ease-in-out" 
+        style={{ transform: `translateX(-${currentIndex * 100}%)` }}
+      >
+        {slides.map((slide, index) => (
+          <div 
             key={index}
-            className={`absolute inset-0 transition-opacity duration-700 ${index === currentIndex ? 'opacity-100' : 'opacity-0'}`}
+            className="w-full h-screen flex-shrink-0 relative"
+            style={{ backgroundImage: `url(${slide.image})`, backgroundSize: 'cover', backgroundPosition: 'center' }}
           >
-            <img
-              src={image}
-              alt={`Slide ${index + 1}`}
-              className="w-full h-full object-cover"
-            />
+            <div className="absolute inset-0 bg-black/40 flex flex-col justify-center md:pl-[150px] p-10 text-white">
+            <div className='flex gap-4 items-center'>
+            <div class="border-t w-[40px] h-[2px] border-gray-300 my-6"></div>
+              <h3 className='text-[28px] font-[500]'>DISCOVER</h3>
+            </div>
+              <h1 className="text-[70px] tracking-widest font-bold mb-2">{slide.location}</h1>
+              <p className="text-lg mb-4">{slide.description}</p>
+              <a 
+                href={slide.link}
+                className="text-white w-[150px] bg-blue-500 px-4 text-center py-2 rounded-3xl hover:bg-blue-600 transition"
+              >
+                Learn More
+              </a>
+            </div>
           </div>
         ))}
       </div>
 
+      {/* Dots Navigation */}
       <div className="absolute z-30 flex space-x-3 bottom-5 left-1/2 transform -translate-x-1/2">
-        {images.map((_, index) => (
+        {slides.map((_, index) => (
           <button
             key={index}
             className={`w-3 h-3 rounded-full ${index === currentIndex ? 'bg-white' : 'bg-gray-500'}`}
@@ -47,6 +87,7 @@ const HeroCarousel = () => {
         ))}
       </div>
 
+      {/* Previous Button */}
       <button
         className="absolute top-0 left-0 z-30 flex items-center justify-center h-full px-4 group focus:outline-none"
         onClick={prevSlide}
@@ -58,6 +99,7 @@ const HeroCarousel = () => {
         </span>
       </button>
 
+      {/* Next Button */}
       <button
         className="absolute top-0 right-0 z-30 flex items-center justify-center h-full px-4 group focus:outline-none"
         onClick={nextSlide}
