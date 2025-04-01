@@ -8,6 +8,7 @@ import MainFooter from '@/components/footer'
 import MirrorContainer from '@/components/mainHome/mirrorContainer'
 import Header from '@/components/mainHome/header'
 import Packadge from '@/components/packadgeTable'
+import SearchForm from '@/components/searchForm'
 
 const homePage = () => {
   return (
@@ -20,6 +21,7 @@ const homePage = () => {
         <Advanture/>
         {/* <MirrorContainer/> */}
         <Packadge/>
+        <SearchForm/>
         <MainFooter/>
     </div>
   )
