@@ -2,18 +2,18 @@ import React from 'react';
 
 const AdventureSection = () => {
   return (
-    <section className="flex flex-wrap items-center gap-8 p-8 bg-gray-50">
+    <section className="flex flex-wrap items-center  p-8 bg-gray-50 text-[#191919]">
       {/* Left side: Image */}
-      <div className="w-full sm:w-1/2">
+      <div className="md:w-1/2 flex justify-center w-full">
         <img
-          src="https://via.placeholder.com/400"
+          src="https://placehold.co/1000x1000"
           alt="Adventure placeholder"
           className="w-full max-w-md rounded object-cover"
         />
       </div>
 
       {/* Right side: Text content */}
-      <div className="w-full sm:w-1/2">
+      <div className="w-full md:w-1/2">
         <h5 className="text-green-600 font-medium mb-2">Explore the world</h5>
         <h2 className="text-2xl font-bold mb-4">
           Great Opportunity For{' '}

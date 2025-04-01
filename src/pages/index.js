@@ -9,6 +9,7 @@ import CardComponent from "@/components/mainHome/cardComponent"
 import HeroCrousel from "@/components/mainHome/heroCrousel";
 import Advanture from '@/components/advanture'
 import HirstoricalArchetechture from '../components/mainHome/historicalArchetechture'
+import MainFooter from '@/components/footer'
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -32,6 +33,7 @@ export default function Home() {
       <Advanture/>
       {/* <HirstoricalArchetechture/> */}
       <Login/>
+      <MainFooter/>
     </div>
   );
 }
