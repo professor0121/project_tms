@@ -7,6 +7,7 @@ import Advanture from '@/components/advanture'
 import MainFooter from '@/components/footer'
 import MirrorContainer from '@/components/mainHome/mirrorContainer'
 import Header from '@/components/mainHome/header'
+import Packadge from '@/components/packadgeTable'
 
 const homePage = () => {
   return (
@@ -17,7 +18,8 @@ const homePage = () => {
         <PopularTour/>
         <CardComponent/>
         <Advanture/>
-        <MirrorContainer/>
+        {/* <MirrorContainer/> */}
+        <Packadge/>
         <MainFooter/>
     </div>
   )
