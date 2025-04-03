@@ -5,11 +5,10 @@ import PopularTour from '@/components/mainHome/popularTour'
 import CardComponent from '@/components/mainHome/cardComponent'
 import Advanture from '@/components/advanture'
 import MainFooter from '@/components/footer'
-import MirrorContainer from '@/components/mainHome/mirrorContainer'
-import Header from '@/components/mainHome/header'
+import Header from '@/components/header'
 import Packadge from '@/components/packadgeTable'
 import SearchForm from '@/components/searchForm'
-
+import BlogArchive from '@/pages/blog-archive/index'
 const homePage = () => {
   return (
     <div>
@@ -23,6 +22,7 @@ const homePage = () => {
         <Packadge/>
         <SearchForm/>
         <MainFooter/>
+        <BlogArchive/>
     </div>
   )
 }
