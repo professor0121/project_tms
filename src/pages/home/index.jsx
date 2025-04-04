@@ -9,6 +9,7 @@ import Header from '@/components/header'
 import Packadge from '@/components/packadgeTable'
 import SearchForm from '@/components/searchForm'
 import BlogArchive from '@/pages/blog-archive/index'
+import TravelImage from '@/components/travelImage'
 const homePage = () => {
   return (
     <div>
@@ -16,6 +17,7 @@ const homePage = () => {
         <HeroCarousel/>
         <SectionHolder/>
         <PopularTour/>
+        <TravelImage/>
         <CardComponent/>
         <Advanture/>
         {/* <MirrorContainer/> */}
