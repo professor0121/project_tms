@@ -6,29 +6,24 @@ const HeroCarousel = () => {
 
   const slides = [
     {
-      image: "https://placehold.co/1550x850",
+      image: "/hero1.png",
       location: "INDORE",
       description: "Explore the beautiful city of Indore known for its rich culture and history.",
       link: "#indore"
     },
     {
-      image: "https://placehold.co/1550x850",
+      image: "/hero2.png",
       location: "SAGAR",
       description: "Discover the serene landscapes and historical monuments of Sagar.",
       link: "#sagar"
     },
     {
-      image: "https://placehold.co/1550x850",
+      image: "/hero3.png",
       location: "JABALPUR",
       description: "Visit Jabalpur for its mesmerizing waterfalls and rich heritage.",
       link: "#jabalpur"
     },
-    {
-      image: "https://placehold.co/1550x850",
-      location: "BINA",
-      description: "Experience the calm and beautiful nature of Bina.",
-      link: "#bina"
-    }
+   
   ];
 
   const prevSlide = () => {
