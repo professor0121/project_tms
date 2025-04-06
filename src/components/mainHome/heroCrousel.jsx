@@ -55,7 +55,7 @@ const HeroCarousel = () => {
           >
             <div className="absolute inset-0 bg-black/40 flex flex-col justify-center md:pl-[150px] p-10 text-white">
             <div className='flex gap-4 items-center'>
-            <div class="border-t w-[40px] h-[2px] border-gray-300 my-6"></div>
+            <div className="border-t w-[40px] h-[2px] border-gray-300 my-6"></div>
               <h3 className='text-[28px] font-[500]'>DISCOVER</h3>
             </div>
               <h1 className="text-[70px] tracking-widest font-bold mb-2">{slide.location}</h1>

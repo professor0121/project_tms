@@ -12,7 +12,7 @@ const mainfooter = () => {
                                     <img src="https://placehold.co/194x59" alt="Your Store" width="194" height="59" />
                                 </a>
                             </div>
-                            <p classNameName="text-gray-400">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form...</p>
+                            <p className="text-gray-400">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form...</p>
                         </div>
 
                         <div className="w-full sm:w-1/2 lg:w-1/4 mb-6">

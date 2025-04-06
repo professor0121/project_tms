@@ -1,51 +1,93 @@
+'use client';
 import React from 'react';
+import { motion } from 'framer-motion';
+
+const fadeLeft = {
+  hidden: { opacity: 0, x: -50 },
+  show: { opacity: 1, x: 0, transition: { duration: 0.8, ease: 'easeOut' } },
+};
+
+const fadeRight = {
+  hidden: { opacity: 0, x: 50 },
+  show: { opacity: 1, x: 0, transition: { duration: 0.8, ease: 'easeOut' } },
+};
+
+const cardMotion = {
+  hidden: { opacity: 0, y: 30 },
+  show: { opacity: 1, y: 0, transition: { duration: 0.6 } },
+};
 
 const AdventureSection = () => {
   return (
-    <section className="flex flex-wrap items-center  p-8 bg-gray-50 text-[#191919]">
+    <section className="flex flex-wrap items-center p-8 lg:px-24 bg-gray-50 text-[#191919] gap-">
       {/* Left side: Image */}
-      <div className="md:w-1/2 flex justify-center w-full">
+      <motion.div
+        initial="hidden"
+        whileInView="show"
+        viewport={{ once: true }}
+        variants={fadeLeft}
+        className="md:w-1/2 w-full flex justify-center"
+      >
         <img
           src="https://placehold.co/1000x1000"
           alt="Adventure placeholder"
-          className="w-full max-w-md rounded object-cover"
+          className="w-full max-w-md rounded-2xl object-cover shadow-xl"
         />
-      </div>
+      </motion.div>
 
       {/* Right side: Text content */}
-      <div className="w-full md:w-1/2">
-        <h5 className="text-green-600 font-medium mb-2">Explore the world</h5>
-        <h2 className="text-2xl font-bold mb-4">
+      <motion.div
+        initial="hidden"
+        whileInView="show"
+        viewport={{ once: true }}
+        variants={fadeRight}
+        className="w-full md:w-1/2 space-y-6"
+      >
+        <h5 className="text-green-600 font-semibold tracking-wide uppercase pt-6">
+          Explore the world
+        </h5>
+
+        <h2 className="text-3xl md:text-4xl font-bold leading-tight">
           Great Opportunity For{' '}
-          <span className="text-gray-700 font-semibold">
+          <span className="text-[#191919] font-playfair italic text-orange-500">
             Adventure &amp; Travels
           </span>
         </h2>
-        <p className="text-gray-600 mb-6">
+
+        <p className="text-gray-600 leading-relaxed max-w-xl">
           Welcome to our Print28 Website! We are a professional and reliable
           printing company that offers a wide range of printing services to...
         </p>
 
+        {/* Info Cards */}
         <div className="space-y-4">
-          {/* Info Card 1 */}
-          <div className="p-4 bg-white border border-gray-200 rounded">
-            <h4 className="text-lg font-semibold mb-2">Safety First Always</h4>
-            <p className="text-gray-600">
+          {/* Card 1 */}
+          <motion.div
+            variants={cardMotion}
+            whileHover={{ scale: 1.02 }}
+            className="p-6 bg-white border border-gray-200 rounded-xl shadow-sm hover:shadow-md transition-all"
+          >
+            <h4 className="text-lg font-semibold mb-1">🛡️ Safety First Always</h4>
+            <p className="text-gray-600 text-sm">
               Welcome to our Print28 web company that offers wide range of services.
             </p>
-            <p className="text-green-600 font-semibold mt-2">05+ Years of experience</p>
-          </div>
+            <p className="text-green-600 font-semibold mt-2 text-sm">05+ Years of experience</p>
+          </motion.div>
 
-          {/* Info Card 2 */}
-          <div className="p-4 bg-white border border-gray-200 rounded">
-            <h4 className="text-lg font-semibold mb-2">Trusted Travel Guide</h4>
-            <p className="text-gray-600">
+          {/* Card 2 */}
+          <motion.div
+            variants={cardMotion}
+            whileHover={{ scale: 1.02 }}
+            className="p-6 bg-white border border-gray-200 rounded-xl shadow-sm hover:shadow-md transition-all"
+          >
+            <h4 className="text-lg font-semibold mb-1">📍 Trusted Travel Guide</h4>
+            <p className="text-gray-600 text-sm">
               Welcome to our Print28 web company that offers wide range of services.
             </p>
-            <p className="text-green-600 font-semibold mt-2">10+ Team Members</p>
-          </div>
+            <p className="text-green-600 font-semibold mt-2 text-sm">10+ Team Members</p>
+          </motion.div>
         </div>
-      </div>
+      </motion.div>
     </section>
   );
 };
