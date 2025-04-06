@@ -45,7 +45,7 @@ const DestinationSlider = () => {
     return (
         <div className="bg-black text-white py-[40px] px-[50px] flesx flex-col items-center justify-center gap-[20px]">
             <h1 className="text-center text-4xl font-bold mb-4">Explore Destinations by Season</h1>
-            <div className="flex justify-center mb-6 space-x-4">
+            <div className="flex flex-wrap   justify-center mb-6 space-x-4">
                 {Tabs.map(tab => (
                     <button
                         key={tab}

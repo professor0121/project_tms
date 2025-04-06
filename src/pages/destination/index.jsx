@@ -3,6 +3,9 @@ import Hero from '@/components/hero'
 import Header from '@/components/header'
 import DestinationComponent from '@/components/destination-component'
 import TravelerTypeSection from '@/components/travlerTypeSection'
+import Newsletter from '@/components/newSletter'
+import PopularActivities from '@/components/popularActivities'
+import Testimonials from '@/components/testimonials'
 
 const Destination = () => {
     const destinationData = {
@@ -15,6 +18,9 @@ const Destination = () => {
         <Hero {...destinationData}/>
         <TravelerTypeSection/>
         <DestinationComponent/>
+        <PopularActivities/>
+        <Testimonials/>
+        <Newsletter/>
     </div>
   )
 }

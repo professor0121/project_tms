@@ -24,7 +24,6 @@ const homePage = () => {
         <Packadge/>
         <SearchForm/>
         <MainFooter/>
-        <BlogArchive/>
     </div>
   )
 }
