@@ -1,11 +1,11 @@
 import react from 'react';
 
-const blogs = [
+export const blogs = [
     {
         id: 1,
         title: 'Computer Science',
         description: 'An exploration of how computers work, covering algorithms, data structures, programming languages, and more.',
-        image: 'https://placehold.co/400x400',
+        image: '/promo2.png',
         link: ''
     },
     {

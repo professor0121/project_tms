@@ -40,12 +40,7 @@ const DisplayBlog = () => {
                         <div className="p-4">
                             <h2 className="text-xl font-semibold mb-2">{blog.title}</h2>
                             <p className="text-gray-700 mb-4">{blog.description}</p>
-                            <a
-                                href={blog.link}
-                                className="inline-block bg-blue-500 text-white px-4 py-2 rounded-xl hover:bg-blue-600 transition-colors"
-                            >
-                                Read More
-                            </a>
+                            <a href={`/blog-archive/${blog.id}`} className="text-blue-500 hover:underline">Read more</a>
                         </div>
                     </motion.div>
                 ))}
