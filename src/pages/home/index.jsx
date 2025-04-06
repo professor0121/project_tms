@@ -4,12 +4,13 @@ import SectionHolder from '@/components/mainHome/sectionHolder'
 import PopularTour from '@/components/mainHome/popularTour'
 import CardComponent from '@/components/mainHome/cardComponent'
 import Advanture from '@/components/advanture'
-import MainFooter from '@/components/footer'
+import Footer from '@/components/footer'
 import Header from '@/components/header'
 import Packadge from '@/components/packadgeTable'
 import SearchForm from '@/components/searchForm'
 import BlogArchive from '@/pages/blog-archive/index'
 import TravelImage from '@/components/travelImage'
+import Newsletter from '@/components/newSletter'
 const homePage = () => {
   return (
     <div>
@@ -21,9 +22,10 @@ const homePage = () => {
         <CardComponent/>
         <Advanture/>
         {/* <MirrorContainer/> */}
-        <Packadge/>
-        <SearchForm/>
-        <MainFooter/>
+        {/* <Packadge/>
+        <SearchForm/> */}
+        <Newsletter/>
+        <Footer/>
     </div>
   )
 }

@@ -6,6 +6,7 @@ import TravelerTypeSection from '@/components/travlerTypeSection'
 import Newsletter from '@/components/newSletter'
 import PopularActivities from '@/components/popularActivities'
 import Testimonials from '@/components/testimonials'
+import Footer from '@/components/footer'
 
 const Destination = () => {
     const destinationData = {
@@ -21,6 +22,7 @@ const Destination = () => {
         <PopularActivities/>
         <Testimonials/>
         <Newsletter/>
+        <Footer/>
     </div>
   )
 }
