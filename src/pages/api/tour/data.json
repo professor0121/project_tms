@@ -1,0 +1,103 @@
+[
+    {
+      "id": 1,
+      "title": "2 Day 1 Night Trip to Santorini, Greece",
+      "image": "https://placehold.co/370x250",
+      "rating": "⭐⭐⭐⭐",
+      "location": "Greece",
+      "duration": "2 Days",
+      "group": "4 Person",
+      "price": "$230/person"
+    },
+    {
+      "id": 2,
+      "title": "Magical Journey to Kyoto Temples",
+      "image": "https://placehold.co/370x250",
+      "rating": "⭐⭐⭐⭐⭐",
+      "location": "Japan",
+      "duration": "3 Days",
+      "group": "2 Person",
+      "price": "$320/person"
+    },
+    {
+      "id": 3,
+      "title": "Safari Adventure in Serengeti",
+      "image": "https://placehold.co/370x250",
+      "rating": "⭐⭐⭐⭐",
+      "location": "Tanzania",
+      "duration": "4 Days",
+      "group": "6 Person",
+      "price": "$450/person"
+    },
+    {
+      "id": 4,
+      "title": "Northern Lights Tour in Iceland",
+      "image": "https://placehold.co/370x250",
+      "rating": "⭐⭐⭐⭐",
+      "location": "Iceland",
+      "duration": "3 Days",
+      "group": "4 Person",
+      "price": "$400/person"
+    },
+    {
+      "id": 5,
+      "title": "Cultural Trip to Rajasthan",
+      "image": "https://placehold.co/370x250",
+      "rating": "⭐⭐⭐",
+      "location": "India",
+      "duration": "5 Days",
+      "group": "8 Person",
+      "price": "$180/person"
+    },
+    {
+      "id": 6,
+      "title": "Romantic Paris Getaway",
+      "image": "https://placehold.co/370x250",
+      "rating": "⭐⭐⭐⭐⭐",
+      "location": "France",
+      "duration": "3 Days",
+      "group": "2 Person",
+      "price": "$500/person"
+    },
+    {
+      "id": 7,
+      "title": "Historic Rome Exploration",
+      "image": "https://placehold.co/370x250",
+      "rating": "⭐⭐⭐⭐",
+      "location": "Italy",
+      "duration": "4 Days",
+      "group": "5 Person",
+      "price": "$390/person"
+    },
+    {
+      "id": 8,
+      "title": "Hiking Trails in the Swiss Alps",
+      "image": "https://placehold.co/370x250",
+      "rating": "⭐⭐⭐⭐⭐",
+      "location": "Switzerland",
+      "duration": "3 Days",
+      "group": "3 Person",
+      "price": "$450/person"
+    },
+    {
+      "id": 9,
+      "title": "Beaches & Sunsets in Bali",
+      "image": "https://placehold.co/370x250",
+      "rating": "⭐⭐⭐",
+      "location": "Indonesia",
+      "duration": "4 Days",
+      "group": "6 Person",
+      "price": "$250/person"
+    },
+    {
+      "id": 10,
+      "title": "Jungle Trekking in Amazon Rainforest",
+      "image": "https://placehold.co/370x250",
+      "rating": "⭐⭐⭐⭐",
+      "location": "Brazil",
+      "duration": "5 Days",
+      "group": "5 Person",
+      "price": "$600/person"
+    }
+  ]
+  

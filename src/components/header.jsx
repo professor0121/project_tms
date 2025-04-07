@@ -6,7 +6,7 @@ const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
   const handler = () => {
     setIsOpen(!isOpen);
-    console.log(isOpen);
+     
   }
 
   return (
