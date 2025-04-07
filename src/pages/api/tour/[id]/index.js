@@ -1,18 +1,17 @@
-import { blogs } from '../../../index'; // <-- adjusted path
+import tours  from '../data.json'; // <-- adjusted path
 
 export default function handler(req, res) {
   const { id } = req.query;
-
   if (req.method !== 'GET') {
     return res.status(405).json({ message: 'Method not allowed' });
   }
 
-  const blogId = parseInt(id, 10);
-  const blog = blogs.find(b => b.id === blogId);
+  const tourId = parseInt(id, 10);
+  const tour= tours.find(b => b.id === tourId);
 
-  if (blog) {
-    return res.status(200).json(blog);
+  if (tour) {
+    return res.status(200).json(tour);
   } else {
-    return res.status(404).json({ message: 'Blog not found' });
+    return res.status(404).json({ message: 'tour not found' });
   }
 }

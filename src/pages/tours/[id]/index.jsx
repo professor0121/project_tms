@@ -4,11 +4,11 @@ import Image from 'next/image';
 import Header from '@/components/header';
 import Hero from '@/components/hero';
 
-const BlogDetail = () => {
+const TourDetail = () => {
   const router = useRouter();
   const { id } = router.query;
   const [tour, setTour] = useState(null);
- console.log('id:', id)
+
   useEffect(() => {
     if (id) {
       fetch(`/api/tour/${id}`)
@@ -17,11 +17,10 @@ const BlogDetail = () => {
         .catch(err => console.error("Failed to fetch tour", err));
     }
   }, [id]);
-  console.log(tour          )
 
   const heroData = {
-    title: "Blog", // fixed typo from "tittle" to "title"
-    description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod, velit?",
+    tittle: "Tour Details",
+    description: "Explore your next unforgettable destination 💼✈️",
   };
 
   if (!tour) {
@@ -29,27 +28,42 @@ const BlogDetail = () => {
   }
 
   return (
-    <div>
-      {/* <Header />
+    <div className='text-[#ffffff]'>
+      <Header />
       <Hero {...heroData} />
+
       <div className="container mx-auto px-4 py-12 max-w-4xl">
-        <Image 
-          src={tour.image} 
-          alt={tour.title} 
-          width={800} 
-          height={400} 
+        <img
+          src={tour.image}
+          alt={tour.title}
+          width={800}
+          height={400}
           className="rounded-xl mb-6 object-cover w-full"
         />
+
         <h1 className="text-4xl font-bold mb-4">{tour.title}</h1>
-        <p className="text-gray-600 mb-8">{tour.description || " "}</p>
-        <div className="text-lg text-gray-800 leading-relaxed space-y-4">
-          {tour.content?.split('\n').map((para, i) => (
-            <p key={i}>{para}</p>
-          ))}
+        <div className="text-gray-600 mb-4 flex gap-4 text-sm">
+          <span>📍 {tour.location}</span>
+          <span>🕒 {tour.duration}</span>
+          <span>👥 {tour.group}</span>
         </div>
-      </div> */}
+
+        <div className="flex justify-between items-center text-lg font-semibold text-[#191919] border-b pb-4 mb-6">
+          <span>{tour.rating}</span>
+          <span className="text-[#2DB2FF]">{tour.price}</span>
+        </div>
+
+        <div className="text-lg  leading-relaxed space-y-4">
+          <p>{tour.description}</p>
+          <p>
+            Cupiditate rem deserunt in maiores iusto, facilis, minima dolorem, praesentium
+            reprehenderit saepe quam. Nisi reprehenderit aspernatur quas doloremque veniam 
+            excepturi velit.
+          </p>
+        </div>
+      </div>
     </div>
   );
 };
 
-export default BlogDetail;
+export default TourDetail;
