@@ -23,7 +23,7 @@ const HeroCarousel = () => {
       description: "Visit Jabalpur for its mesmerizing waterfalls and rich heritage.",
       link: "#jabalpur"
     },
-   
+
   ];
 
   const prevSlide = () => {
@@ -43,30 +43,31 @@ const HeroCarousel = () => {
 
   return (
     <div className="relative w-full h-screen overflow-hidden">
-      <div 
-        className="flex transition-transform duration-1000 ease-in-out" 
+      <div
+        className="flex transition-transform duration-1000 ease-in-out"
         style={{ transform: `translateX(-${currentIndex * 100}%)` }}
       >
         {slides.map((slide, index) => (
-          <div 
+          <div
             key={index}
             className="w-full h-screen flex-shrink-0 relative"
             style={{ backgroundImage: `url(${slide.image})`, backgroundSize: 'cover', backgroundPosition: 'center' }}
           >
             <div className="absolute inset-0 bg-black/40 flex flex-col justify-center md:pl-[150px] p-10 text-white">
-            <div className='flex gap-4 items-center'>
-            <div className="border-t w-[40px] h-[2px] border-gray-300 my-6"></div>
-              <h3 className='text-[28px] font-[500]'>DISCOVER</h3>
-            </div>
+              <div className='flex gap-4 items-center'>
+                <div className="border-t w-[40px] h-[2px] border-gray-300 my-6"></div>
+                <h3 className='text-[28px] font-[500]'>DISCOVER</h3>
+              </div>
               <h1 className="text-[70px] tracking-widest font-bold mb-2">{slide.location}</h1>
               <p className="text-lg mb-4">{slide.description}</p>
-              <a 
+              <a
                 href={slide.link}
                 className="text-white w-[150px] bg-blue-500 px-4 text-center py-2 rounded-3xl hover:bg-blue-600 transition"
               >
                 Learn More
               </a>
             </div>
+             
           </div>
         ))}
       </div>
@@ -89,7 +90,7 @@ const HeroCarousel = () => {
       >
         <span className="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/30 hover:bg-white/50">
           <svg className="w-4 h-4 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
-            <path d="M5 1 1 5l4 4" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2"/>
+            <path d="M5 1 1 5l4 4" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" />
           </svg>
         </span>
       </button>
@@ -101,7 +102,7 @@ const HeroCarousel = () => {
       >
         <span className="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/30 hover:bg-white/50">
           <svg className="w-4 h-4 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
-            <path d="M1 9l4-4L1 1" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2"/>
+            <path d="M1 9l4-4L1 1" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" />
           </svg>
         </span>
       </button>

@@ -5,6 +5,7 @@ import Header from '@/components/header';
 import Hero from '@/components/hero';
 import Footer from '@/components/footer'
 import Newsletter from '@/components/newSletter';
+import Link from 'next/link';
 
 const TourDetail = () => {
   const router = useRouter();
@@ -89,7 +90,10 @@ const TourDetail = () => {
             Book Now
           </button>
           <button className="bg-white text-[#2DB2FF] hover:text-white hover:bg-[#2DB2FF] border border-[#2DB2FF] font-semibold py-3 px-6 rounded-full transition-all duration-300 shadow-md">
-            Add to Cart
+            <Link href={{
+              pathname:'/cart',
+              query:{id:tour.id,title:tour.title}
+            }} >Add to Cart</Link>
           </button>
         </div>
 
