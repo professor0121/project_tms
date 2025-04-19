@@ -1,4 +1,5 @@
-import React from 'react';
+import React,{useEffect,useState} from 'react';
+import { useRouter } from 'next/router';
 import Header from '@/components/header';
 import Hero from '@/components/hero';
 
@@ -8,11 +9,28 @@ const cart = () => {
     tittle: 'CART',
     description: 'Travel with goods and Feel free for anything , we plan you travel'
   }
+  const router =useRouter();
+  const {id, title}=router.query;
+  const [tour,setTour]=useState(null);
 
+  useEffect(()=>{
+    if(id){
+      fetch(`api/tour/${id}`)
+      .then(res=>res.json())
+      .then(data=>setTour(data))
+      .catch(err => console.error("Failed to fetch tour", err));
+    }
+  },[id])
+  
+console.log(tour)
+if(!tour){
+  return <h1>Loading....</h1>
+}
   return (
     <div>
       <Header />
       <Hero {...heroData} />
+      <h1></h1>
       <section class="bg-white py-8 antialiased dark:bg-gray-900 md:py-16">
         <div class="mx-auto max-w-screen-xl px-4 2xl:px-0">
           <h2 class="text-xl font-semibold text-gray-900 dark:text-white sm:text-2xl">Book Your Travel Ticket</h2>
@@ -23,8 +41,7 @@ const cart = () => {
                 <div class="rounded-lg border border-gray-200 bg-white p-4 shadow-sm dark:border-gray-700 dark:bg-gray-800 md:p-6">
                   <div class="space-y-4 md:flex md:items-center md:justify-between md:gap-6 md:space-y-0">
                     <a href="#" class="shrink-0 md:order-1">
-                      <img class="h-20 w-20 dark:hidden" src="https://flowbite.s3.amazonaws.com/blocks/e-commerce/imac-front.svg" alt="imac image" />
-                      <img class="hidden h-20 w-20 dark:block" src="https://flowbite.s3.amazonaws.com/blocks/e-commerce/imac-front-dark.svg" alt="imac image" />
+                      {/* <img class="hidden h-20 w-20 dark:block" src={tour.image} alt="imac image" /> */}
                     </a>
 
                     <label for="counter-input" class="sr-only">Choose quantity:</label>
@@ -48,7 +65,7 @@ const cart = () => {
                     </div>
 
                     <div class="w-full min-w-0 flex-1 space-y-4 md:order-2 md:max-w-md">
-                      <a href="#" class="text-base font-medium text-gray-900 hover:underline dark:text-white">PC system All in One APPLE iMac (2023) mqrq3ro/a, Apple M3, 24" Retina 4.5K, 8GB, SSD 256GB, 10-core GPU, Keyboard layout INT</a>
+                      <a href="#" class="text-base font-medium text-gray-900 hover:underline dark:text-white">{tour.title}</a>
 
                       <div class="flex items-center gap-4">
                         <button type="button" class="inline-flex items-center text-sm font-medium text-gray-500 hover:text-gray-900 hover:underline dark:text-gray-400 dark:hover:text-white">

@@ -13,7 +13,7 @@ const Dashboard = () => {
 
         const user = JSON.parse(atob(token.split(".")[1])); // Decode JWT
         if (user.role === "customer") {
-            router.push("/dashboard/customer");
+            router.push("/home");
         } else if (user.role === "localGuid") {
             router.push("/dashboard/localGuid");
         }
