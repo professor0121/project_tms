@@ -1,84 +1,117 @@
-import react from 'react';
+import { connectDB } from "../../../lib/mongodb"; // Ensure you have this helper to connect to DB
+import Blog from "../../../models/blog"; // Adjust the path if necessary
 
-export const blogs = [
-    {
-        id: 1,
-        title: 'Computer Science',
-        description: 'An exploration of how computers work, covering algorithms, data structures, programming languages, and more.',
-        image: '/promo2.png',
-        link: ''
-    },
-    {
-        id: 2,
-        title: 'Artificial Intelligence',
-        description: 'Understanding AI concepts like machine learning, neural networks, and their real-world applications transforming industries.',
-        image: 'https://placehold.co/400x400',
-        link: ''
-    },
-    {
-        id: 3,
-        title: 'Web Development',
-        description: 'Guide to building responsive and dynamic websites using HTML, CSS, JavaScript, React, and backend technologies.',
-        image: 'https://placehold.co/400x400',
-        link: ''
-    },
-    {
-        id: 4,
-        title: 'Data Science',
-        description: 'Introduction to analyzing and interpreting complex data using Python, R, statistics, and visualization tools.',
-        image: 'https://placehold.co/400x400',
-        link: ''
-    },
-    {
-        id: 5,
-        title: 'Cybersecurity',
-        description: 'Learn techniques to secure systems, prevent breaches, and protect sensitive data in the digital world.',
-        image: 'https://placehold.co/400x400',
-        link: ''
-    },
-    {
-        id: 6,
-        title: 'Cloud Computing',
-        description: 'Exploring cloud platforms like AWS, Azure, and Google Cloud for scalable application development and storage solutions.',
-        image: 'https://placehold.co/400x400',
-        link: ''
-    },
-    {
-        id: 7,
-        title: 'Blockchain Technology',
-        description: 'Understanding the decentralized ledger technology powering cryptocurrencies and various innovative applications.',
-        image: 'https://placehold.co/400x400',
-        link: ''
-    },
-    {
-        id: 8,
-        title: 'Internet of Things (IoT)',
-        description: 'Connecting devices and analyzing data to create smart environments for efficient automation and monitoring.',
-        image: 'https://placehold.co/400x400',
-        link: ''
-    },
-    {
-        id: 9,
-        title: 'Mobile App Development',
-        description: 'Building innovative mobile applications for Android and iOS using frameworks like React Native and Flutter.',
-        image: 'https://placehold.co/400x400',
-        link: ''
-    },
-    {
-        id: 10,
-        title: 'Machine Learning',
-        description: 'Techniques for training models to recognize patterns, make predictions, and improve with experience.',
-        image: 'https://placehold.co/400x400',
-        link: ''
+// Create a new blog post
+async function createBlog(req, res) {
+  const { title, content, author, image, tags, status } = req.body;
+
+  if (!title || !content || !author) {
+    return res.status(400).json({ error: "Please provide all required fields" });
+  }
+
+  try {
+    const newBlog = new Blog({
+      title,
+      content,
+      author,
+      image,
+      tags,
+      status: status || "draft", // Default status is "draft" if not provided
+    });
+
+    await newBlog.save();
+    return res.status(201).json({ message: "Blog created successfully", blog: newBlog });
+  } catch (error) {
+    console.error("❌ Blog Create Error:", error);
+    return res.status(500).json({ error: "Internal Server Error" });
+  }
+}
+
+// Get all blog posts
+async function getBlogs(req, res) {
+  try {
+    const blogs = await Blog.find().populate("author");
+    return res.status(200).json({ blogs });
+  } catch (error) {
+    console.error("❌ Get Blogs Error:", error);
+    return res.status(500).json({ error: "Internal Server Error" });
+  }
+}
+
+// Get a single blog post by ID
+async function getBlogById(req, res) {
+  const { id } = req.query;
+
+  try {
+    const blog = await Blog.findById(id).populate("author");
+    if (!blog) {
+      return res.status(404).json({ error: "Blog not found" });
     }
-];
+    return res.status(200).json({ blog });
+  } catch (error) {
+    console.error("❌ Get Blog by ID Error:", error);
+    return res.status(500).json({ error: "Internal Server Error" });
+  }
+}
 
+// Update an existing blog post
+async function updateBlog(req, res) {
+  const { id } = req.query;
+  const { title, content, image, tags, status } = req.body;
 
+  if (!title || !content) {
+    return res.status(400).json({ error: "Please provide all required fields" });
+  }
 
-
-export default async function handler(req,res) {
-    if(req.method !=="GET"){
-        return res.status(405).json("mathod is not allowed");
+  try {
+    const updatedBlog = await Blog.findByIdAndUpdate(
+      id,
+      { title, content, image, tags, status },
+      { new: true }
+    );
+    if (!updatedBlog) {
+      return res.status(404).json({ error: "Blog not found" });
     }
-    res.json(blogs);
-}  
+    return res.status(200).json({ message: "Blog updated successfully", blog: updatedBlog });
+  } catch (error) {
+    console.error("❌ Blog Update Error:", error);
+    return res.status(500).json({ error: "Internal Server Error" });
+  }
+}
+
+// Delete a blog post
+async function deleteBlog(req, res) {
+  const { id } = req.query;
+
+  try {
+    const deletedBlog = await Blog.findByIdAndDelete(id);
+    if (!deletedBlog) {
+      return res.status(404).json({ error: "Blog not found" });
+    }
+    return res.status(200).json({ message: "Blog deleted successfully" });
+  } catch (error) {
+    console.error("❌ Blog Delete Error:", error);
+    return res.status(500).json({ error: "Internal Server Error" });
+  }
+}
+
+export default async function handler(req, res) {
+  await connectDB();
+
+  switch (req.method) {
+    case "POST":
+      return createBlog(req, res); // Create Blog
+    case "GET":
+      if (req.query.id) {
+        return getBlogById(req, res); // Get Single Blog
+      } else {
+        return getBlogs(req, res); // Get All Blogs
+      }
+    case "PUT":
+      return updateBlog(req, res); // Update Blog
+    case "DELETE":
+      return deleteBlog(req, res); // Delete Blog
+    default:
+      return res.status(405).json({ error: "Method Not Allowed" });
+  }
+}

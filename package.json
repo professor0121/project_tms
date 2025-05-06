@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "@heroicons/react": "^2.2.0",
+    "@pmmmwh/react-refresh-webpack-plugin": "^0.6.0",
     "bcrypt": "^5.1.1",
     "bcryptjs": "^3.0.2",
     "framer-motion": "^12.6.3",
@@ -17,7 +18,7 @@
     "lucide-react": "^0.475.0",
     "mongoose": "^8.11.0",
     "nanoid": "^5.1.2",
-    "next": "15.1.7",
+    "next": "^15.3.1",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
     "react-hook-form": "^7.54.2",

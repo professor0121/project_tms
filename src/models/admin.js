@@ -2,7 +2,7 @@ import mongoose from "mongoose";
 import bcrypt from "bcryptjs";
 import jwt from "jsonwebtoken";
 
-const UserSchema = new mongoose.Schema({
+const AdminSchema = new mongoose.Schema({
     name: {
         type: String,
         required: [true, 'Name is required'],
@@ -23,27 +23,9 @@ const UserSchema = new mongoose.Schema({
         minlength: [6, 'Password must have at least 6 characters'],
         select: false // Hide password in queries
     },
-    role: {
-        type: String,
-        enum: ['customer', 'vender','localGuid','planner'],
-        default: 'customer' // Default role is customer
-    },
-    image: {
-        type: String, // Store URL of the uploaded profile picture
-        default: "user.jpeg" // Default image if none is provided
-    },
-   
-    bio:{
-        type: String,
-        default: "N/A"
-    }
-
+  
 }, { timestamps: true });
-
-/**
- * 🔒 Hash password before saving
- */
-UserSchema.pre("save", async function (next) {
+AdminSchema.pre("save", async function (next) {
     if (!this.isModified("password")) return next();
     const salt = await bcrypt.genSalt(10);
     this.password = await bcrypt.hash(this.password, salt);
@@ -53,14 +35,14 @@ UserSchema.pre("save", async function (next) {
 /**
  * 🔑 Compare Password
  */
-UserSchema.methods.comparePassword = async function (enteredPassword) {
+AdminSchema.methods.comparePassword = async function (enteredPassword) {
     return await bcrypt.compare(enteredPassword, this.password);
 };
 
 /**
  * 🔑 Generate JWT Token
  */
-UserSchema.methods.generateAuthToken = function () {
+AdminSchema.methods.generateAuthToken = function () {
     return jwt.sign(
         { id: this._id, email: this.email, role: this.role, image: this.image },
         process.env.JWT_SECRET,
@@ -69,5 +51,5 @@ UserSchema.methods.generateAuthToken = function () {
 };
 
 // Prevent multiple model registration
-const User = mongoose.models.User || mongoose.model("User", UserSchema);
-export default User;
+    const Admin = mongoose.models.Admin || mongoose.model("Admin", AdminSchema);
+export default Admin;

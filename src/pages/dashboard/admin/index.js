@@ -1,3 +1,4 @@
+'use client';
 import React, { useState } from 'react';
 import Sidebar from '@/components/admin/sidebar';
 import DashboardHome from '@/components/admin/dashboardHome';
@@ -6,9 +7,18 @@ import Tours from '@/components/admin/Tours';
 import Vendors from '@/components/admin/vendors';
 import Reports from '@/components/admin/reports';
 import Header from '@/components/admin/header';
+import { useRouter } from 'next/router';      
+import { useEffect } from 'react';
 
 const AdminDashboard = () => {
   const [activeTab, setActiveTab] = useState('dashboard');
+  const router = useRouter();
+  useEffect(() => {
+    const token = localStorage.getItem('adminToken');
+    if (!token) {
+      router.push('/dashboard/admin/login'); // Redirect to login if not authenticated
+    }
+  }, [router]);
 
   const renderContent = () => {
     switch (activeTab) {
