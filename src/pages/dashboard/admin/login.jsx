@@ -18,9 +18,10 @@ const AdminLogin = () => {
     });
 
     const data = await res.json();
-
+    console.log(data); // Log the response for debugging
     if (res.ok) {
       localStorage.setItem('adminToken', data.token);
+      localStorage.setItem('adminId', data.admin._id);
       alert('Login successful');
       router.push('/dashboard/admin'); // redirect to dashboard
     } else {

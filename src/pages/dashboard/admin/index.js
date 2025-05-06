@@ -26,7 +26,7 @@ const AdminDashboard = () => {
         return <Users />;
       case 'tours':
         return <Tours />;
-      case 'vendors':
+      case 'vendors': 
         return <Vendors />;
       case 'reports':
         return <Reports />;
