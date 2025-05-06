@@ -1,4 +1,4 @@
-import tours from './data.json';
+    import tours from './data.json';
 
 const handler = async (req, res) => {
 
