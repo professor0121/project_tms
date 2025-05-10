@@ -1,0 +1,457 @@
+{"id":"bhopal",
+ "activity": "boating,ropeway,rock climbing, food stalls, wildlife ,heritage",
+
+ {
+          "img":"$schema": {
+          "Madhya Pradesh Tribal Museum": "https://lh3.googleusercontent.com/gpms-cs-s/AIMqDu2X8bUY2NuQX5hbc134VE0KHOdD5LS1uyjrgXhJUIhIjB0DN-UOTFvUfmHlv7aDXcNUXjIlYixStKhlV0nfuQle3nTuoqBNVG7BAo1z4IC3OeYwz4upT-hbXDZOmISuFm_oy7kh=s294-w294-h220-n-k-no",
+
+          "Taj-ul-Masjid": "https://lh3.googleusercontent.com/gpms-cs-s/AIMqDu1XWyfITCpWTLutwO2Vnzbv0ysXJOdJyJZ3N_t_0UMea2SrqLORc08AGbJY0CmdijIl_jfLp4JiI3IeG7v1eiY6LpUaOCbrrij3GzqGfSEgwdtXdR5nHUe9uBcXnUN_ERm2YjreHQ=s294-w294-h220-n-k-no",
+
+          "Van Vihar National Park Bhopal" : "https://lh3.googleusercontent.com/gpms-cs-s/AIMqDu0xg48SIY5s51sZR18XYJliJGu8lOkGLdmTSDVy_KwYkqqvMLRr_7d3aJAdKsXMrLdsdMwtVDVjmiLqBpPG6ZTn5YjyBphWSeKjC8ocb8kVsgWXWRFT1PzfgxgB1YdkHXU6iSCu=s294-w294-h220-n-k-no",
+
+          "Lake View, Bhopal" : "https://lh3.googleusercontent.com/gpms-cs-s/AIMqDu2c4heIqBSLK9rfhjYCvBl_5n5ZVqc7c3nDaBDeVDj26-fpmlQxGpafW02gFyES_-3kmHGcGZMw9au1u417YBRk9--k6hahVqI_4RIkmdJ9Rzo_fVtdHv9KUQeXSYocgar0j5J43Q=s294-w294-h220-n-k-no",
+
+          "Bhimbetka rock shelters" : "https://lh3.googleusercontent.com/gpms-cs-s/AIMqDu09qGwycMML_GToWe3RK7hxr_y3e5rAKrt-fBno3S2ilN7ffdmD2RUzW_z_MXcRDRZmq0o61Y6CRkUOLKzJrXo6L7rKq0ICOnKLJuStawh5qta2MgM8KBhijLkQGXPqGkKF10Tb=s294-w294-h220-n-k-no",
+
+          "DB City Mall" : "https://lh3.googleusercontent.com/gps-cs-s/AB5caB8JfIPt51r0g8JG41u3nrHncmOvyC-o5zu_X-hrdpLCxlqTjH3fu3Fbb58oRMPr4jQW36Is74rpzWwDmko15b08XKMt0m62DwcfsczIE1NjknwG37743Y6tIToEvefhTVU-uN1b5g=s294-w294-h220-n-k-no"
+          },
+
+          "description" : "Bhopal is famously known as the City of Lakes due to its numerous natural and artificial lakes, including the Upper Lake and the Lower Lake. It's also recognized for its rich historical and cultural heritage, including Mughal architecture, the Bhimbetka rock shelters, and the Taj-ul-Masajid mosque. Additionally, Bhopal is home to the Van Vihar National Park and the Madhya Pradesh Tribal Museum. "
+
+ },
+
+ "id":"indore",
+ "activity": {"rich culture, food stalls, cleaness ,heritage, waterfall ,temples"}
+  {
+          "img": "$schema": {
+
+          "Rajwada Palace": "https://lh3.googleusercontent.com/gpms-cs-s/AIMqDu1afmsjuYjdSvB-RixQpuNWxsGyYjvDG6f-nPQ_xhZgTdAom-UHLu4uDG6UtTqAS-ZdyjDH5Ckmo6N92hj8YLUViXgAXvSGv3Nq3mlyFez_gSW0f-0Y6Wt_GgbvGUwMVgcnELrj=s294-w294-h220-n-k-no"
+
+          "Patalpani Water Falls" :"https://lh3.googleusercontent.com/gpms-cs-s/AIMqDu2cIbV3v6w3Wql68yMV9uugCvbcRpPVE8twIry1NSJappIOXWPPtPAsDVkdJA74Vcui4zAysIhj3YM-cDSyZjd074p9Eive5v8jHcB3r7vfWE4kIHjLr_RC-4e05p4JkpdKmPKZ=s294-w294-h220-n-k-no"
+
+          "Khajrana Ganesh Mandir" : "https://lh3.googleusercontent.com/gpms-cs-s/AIMqDu1shNEPk-7s6_XzVNgnIoVpxggO2ZlK9bx7e9NIA1Z664jF9qitqKHEz0HnqSDnwWRmM0DsUsROatL3HZm6izT9fbIrdjrh5RVj7T-vhhLEqlKbMw_J1mcBlvKes-Z-xpudmcgx=s220-w165-h220-n-k-no"
+
+          "Phoenix Citadel Mall": "https://lh3.googleusercontent.com/p/AF1QipOHK1mm6RSy7woRIRoPwk0GuAz6fA0m_6oCR4g5=s294-w294-h220-n-k-no"
+
+          "Sarafa Bazar" : "https://lh3.googleusercontent.com/gps-cs-s/AB5caB-Yq-sX_2hKJvoI50Qk-qO0kq4f4HHjX3DkAQnfHUuSc69afpqUS0rSOE0UOlyww6iHNZjbsiUg3igg_9vf-W0qZCOSGOyyRNrDtFjGtoNMfO-nAkVinZZnyvyPrcBlSGIG0SJO=s220-w165-h220-n-k-no"
+
+          "Chhappan Dukan Indore" : "https://lh3.googleusercontent.com/gps-cs-s/AB5caB-BSbuC5ZMfuUNoHUPKngtymO3lZgQcVoVowkgCHhLankmYAmbA94X-6R9b9j5wD_U3cuYepwtRtaiIC70TtirsBLeHg_AMvqu9AZkP2j7OutHrmMvK7myyTu_C6Y40-xRYjOXu=s1360-w1360-h1020"
+
+          "Kanch Mandir" : "https://lh3.googleusercontent.com/gps-cs-s/AB5caB_eDd7_MP4qA_wfbs3nRqYdpui3R-vMvdC-4K-Arz20ESOW_MhCt95-Bzzy-PYowRX-kzXhQDJ6obUviGm_fLQKJt2L_g41MTtyLiwmbmuyfG3UGFox7aO23QDLxcCrBpSFlh7n5w=s294-w294-h220-n-k-no"
+          
+          "omkareshwar" : ""
+          }
+
+          "description": "Indore is famous for its vibrant street food scene, particularly the iconic Poha Jalebi. It's also known for its historical architecture, including the Rajwada Palace and Lal Bagh Palace, and its thriving commercial hub, being one of the fastest-growing cities in India. Additionally, Indore is recognized for its cleanliness, having been named one of the cleanest cities in India. "
+
+  }
+  "id":"ujjain"
+  "activity": {"rich culture,  cleaness ,heritage, temples"}
+  {
+          "img": {
+                    "Shri Mahakaleshwar Jyotirlinga Temple": "https://lh3.googleusercontent.com/gpms-cs-s/AIMqDu1BaFhZXNSoSuQUkzgEqTb2fijoYOWm3b7lyT8tCHf44Z6IGlPDpm6mbARLurH46tDdkFT8MlqityZ4LNsMOyWz01kyHvT_Dg1Yzz-nTbXNLm_BGKpLEZvZjfFAEsstQKfsorzIvQ=s220-w165-h220-n-k-no"
+
+                    "Mahakal Lok" :"https://lh3.googleusercontent.com/gps-cs-s/AB5caB8tK543f1OQxMZwQI9UtubQlyCieTtV8S-xQn55uEG_NXSuqpY0CLGYubRuMLyXtJSVhj9ESkfoytsNJQadJLla9UVhLgFbSf-vtY-WRBMf3MYicFeiFImy7KXcIGkbx-EX-bNEOg=s294-w294-h220-n-k-no"
+
+                    "Shri Kaal Bhairav Temple, Ujjain" :"https://lh3.googleusercontent.com/gpms-cs-s/AIMqDu3_501Pnv7CVW6ReTiECqTFHKP5P34VmnrriR6QH00L-ZcbpEG1u7XawMg7p4CrBhVFz4UyBxfqjiE-k196xjqfvnp8BmrH71z41qnwaBC-V4d8Z0XX9XHKsmaLfgcaQ2bxRbjPNA=s220-w165-h220-n-k-no"
+
+                    "Shree Harsiddhi Mata Shaktipeeth Temple": "https://lh3.googleusercontent.com/gpms-cs-s/AIMqDu0AnUTe2Qsmy8V_6ppr0wNv1Meq8O-a2AMfMSt7M9hD4iBf_50NVIFSSoiJHDdJjtRbSiDNUj3Y8MAWHpB_F0cv1NtesWF8UlPHXKmeYKabS1pWnfz409CElzLc_fI93M8zltAT=s294-w294-h220-n-k-no"
+
+                    
+          }
+          "description": "The biggest attraction of Ujjain is the Mahakaleshwar Jyotirlinga Temple. It is one of the 12 jyotirlingas, where Bhasma aarti is a daily ritual that you must not miss and this is what Ujjain is famous for."
+  }
+  "id":"pachmari"
+  "activity": {"mountain, hiking, paragrading, rafting, waterfalls, river, beautiful sunset and sunrise places,temples,wildlife,caves, hill station"}
+  {
+        "image": {
+                "Jatashankar Temple" : "https://lh3.googleusercontent.com/gpms-cs-s/AIMqDu2d3oF9KcrK4CQuGtkG-wTkDXwjjOvmjuveQPt_s_BQwncB4_gV0W1rc0L1GGX0hczdRD5NQ8M514sHtaI0_AXojyVw8iCFqS6pIMHAaRZgDd6Yq0DAyvOX2TbMuNH46E1CpK_F=s294-w294-h220-n-k-no"
+
+                "Shri Panch Pandav Caves" : "https://lh3.googleusercontent.com/gps-cs-s/AB5caB8KSF7Cn_ChDXeCcacXGFUP2-pBRm-yGia9fhNf8xZ8uhUFAWqCIWIqGT_Rw7frwKZR54bpn3PII776MSU9cKu4BGEDYTtjCZAoYVUK__0pH1uxLvWlzC3qcykeZu0criXZqiZ9=s294-w294-h220-n-k-no"
+
+                "Bee Falls" : "https://lh3.googleusercontent.com/gpms-cs-s/AIMqDu0L2wKG56ep27ggyCPdgIMhGDsi1GTOqPcNfF1gp8h2pEhHMVLgjDcOXFJEyp8kxvt1-23CQs6VbSatseMoqGbsXMYVsXwuR645CNEXUHyAwKGl5Yte2fkTyL1RE8kvu0cU0HT-dQ=s294-w294-h220-n-k-no"
+
+                "Handi Khoh" : "https://lh3.googleusercontent.com/gpms-cs-s/AIMqDu208SL3kh8iIx4an7nQXfNHvyr4WdNvoeytPnEtjCJ7B-9U3xIR2hHKfqU4LFLH1QCVS2R2V_GeJQ7LeoFvkQjxILzey1BdgKjTR3tMGgkx88XEPkRbETPkZF9lh1lRb6wvIyzh=s294-w294-h220-n-k-no"
+
+                "RAJENDRA GIRI" : "https://lh3.googleusercontent.com/gpms-cs-s/AIMqDu0Y6Ofre424fD_Dy3bguf2XTv7QOt3RxKqS-nrlkUhd_WNAsBba9SVidFXCoJZbkg_YFDBjVGedTMtOmBjTZU9avURdeHiI1xl5fo2fbWRzBlTu2Vqu8Z1aIHmADlwSSJHcytT-tg=s294-w294-h220-n-k-no"
+
+                "Pachmarhi Hill Station" :"https://lh3.googleusercontent.com/gps-cs-s/AB5caB-m4Zt2WNS-8PQqxnwCVEkF5d265DiWDvrn5wr2byoU9lv10Iy7Ku-Yj12vnjRMToR4EdumwGLR6avye8xt-hXowfNJJtu9OwNLbKCHRaEJjV6Q65ghG6IzP1N8-Nr4fNUT8QYCVw=s294-w294-h220-n-k-no"
+
+                "Dhoopgarh Information Center" : "https://lh3.googleusercontent.com/gps-cs-s/AB5caB9zgEnTmOMV29jzyy-R1ev-LozAW7qyBBowbfMYFniiZP3x6Mzjw1omeQX1HM1nQpx4Q4QjikIdlA1nxtnk_NYDBXgxNYqZhWEcB_3AvrO3Ycm0Uj92xItj3l919-AKZ2eJ_klH1Q=s294-w294-h220-n-k-no"
+        }
+  "description" : "Pachmarhi, also known as Satpura ki Rani, is a hill station in the central Indian state of Madhya Pradesh. Its many waterfalls include Apsara Vihar, with its calm pool, and soaring, single-drop Silver Fall nearby. The Bee Fall tumbles over a jagged rock face to the northwest. Leopards and Indian bison live in Satpura National Park. The ancient Pandav Caves are a group of 5 dwellings cut out of sandstone on a hill."
+}
+"id":"satpura range"
+  "activity": {"mountain, hiking, paragrading, rafting, waterfalls, river, beautiful sunset and sunrise places,temples,wildlife,caves, hill station"}
+  {
+  
+        "image": {
+                "Satpura National Park" : "https://t1.gstatic.com/licensed-image?q=tbn:ANd9GcS7lqlFupqWTRXOLDC7bRHl35xsWRB769_YmGXzcMqTt-D2IUfcrFzUa6xNikzweBXt"
+
+                "satpura range" : "https://t3.gstatic.com/licensed-image?q=tbn:ANd9GcQ9GCzivHNn8uskDat2fDe3AZjTi5L82hufVIleo7LQ1z0Sqtv3VGrQ8F4-s8wkkUmy"
+
+                "Pachmarhi Biosphere Reserve" : "https://upload.wikimedia.org/wikipedia/commons/b/b4/Pachmarhi_valley_Madhya_Pradesh_INDIA.jpg"
+                }
+                "discription" : "It is a tourist destination for trekking, fishing and adventure activities. It is also known as 'Queen of Satpura', and became a destination for Bollywood film shootings. The highest point of the Satpura range, Dhupgarh, is located in Pachmarhi."
+
+ }
+
+        
+"id":"jabalpur"
+  "activity": {"waterfall, temples, heritage, mountains, rich culture, mahal"}
+  {
+  
+        "image": {
+                "madan mahal" : "https://lh3.googleusercontent.com/gps-cs-s/AB5caB_Sodqwcb9woMVAcWudN4U9ANtIXyHeTWftBpaG9NQUROlHAzs9iSQMU6fulJSh0AczGgJlTjufJUAWg1PGWzOpjXFznD5OTvnWFthgaxpxKZwsBYasTm5DOpc84I4vHDwU3qME=s220-w165-h220-n-k-no"
+
+                "balancing rock" : "https://lh3.googleusercontent.com/gps-cs-s/AB5caB8XFJ1lu5J22u78Zc8WudtaeaL-eDAQPtBjbf64pLU5WGZXUFzmWWB2zQRQrIFV49pv6LB41eXLwyf_ZyG35Tz3xD7Y8nADWRjk7kaPRyLgKs0zQnQQjcou0IpMkaQJMAxRMzTc=s294-w294-h220-n-k-no"
+
+                "Pisanhari ki Madiya" : "https://lh3.googleusercontent.com/gpms-cs-s/AIMqDu0fxt3Ik1FpUnbbA_iwbAsossfu4qyGJFBzfRIai8JpGmRl-hSk2gEPC7R7Ny2PWcHM8P281RAKtlUzJvMmpcF0DAsTKFmF4BapzsP0AW114lD5sWHdcq65yJWNf4XoWVjy7sWegw=s294-w294-h220-n-k-no"
+
+                "Rani Durgavati Museum": "https://lh3.googleusercontent.com/gps-cs-s/AB5caB-ezz5NOwu2gx3vIzPk6XeAXrim6aAYqjJ5axM2u1wr5JC1PlOPx00hAE6E1SrCUHwvVvs93QFLLgH7i741PV-QKrDIrI0AT0v0Pa87Y6WVXAB20c74f_g6KBRJwI88z6jSSze_8A=s294-w294-h220-n-k-no"
+
+                "Dhuandhar Falls" : "https://encrypted-tbn3.gstatic.com/licensed-image?q=tbn:ANd9GcRwTmjUxdHh4SA-HbKEB0FG7x5VQFRK-l1HdATER-Kzzwa_ZehBS45VT87WLT5QsOacbcmFkaLcd7ms0g4NTNWlx0TvU0sT"
+
+                "Chausath Yogini Temple" : "https://lh3.googleusercontent.com/gps-cs-s/AB5caB_OLIkm2VH3br54jxAWzdRgRBoQtKH5ocCnaRPD8VQoz5mrteH7DNTFO6xHtHSql9lMN02OaAYOw4u1VbcUTSOjK-FDlQV8lCPla0E78wVbVx7_4qM5z2YZ7QM0x0K1vlp36OMu=w270-h312-n-k-no"
+
+        
+                }
+                "discription" : "Jabalpur is primarily known for its stunning natural attractions, particularly the Marble Rocks at Bhedaghat and the Dhuandhar Falls, both located along the Narmada River. The city also boasts a rich history, with significant historical monuments and sites like the Madan Mahal Fort and Rani Durgavati Museum. Furthermore, Jabalpur is a major military base and a railway junction."
+
+}
+"id":"sagar"
+  "activity": {"river, temples, heritage, rich culture, wildlife,waterfall,fort"}
+  {
+  
+        "image": {
+                "Lakha Banjara Lake" : "https://lh3.googleusercontent.com/gpms-cs-s/AIMqDu1EpDGfmAH_AU-aa9oA3WCDf_SP7QBXI7MluxRB94d7t3YrMlwOyE73_qVHM0kz3T6_suplA_VdjqLAdI7hHqQr5uHkKppLjJF5izi92OC5xSzPQNg2OpqbPSb1kfrJ16I4JJOQ=s294-w294-h220-n-k-no"
+
+                "Gadpahra fort" : "https://lh3.googleusercontent.com/gpms-cs-s/AIMqDu0PgrFjfovnucg3SJdi-1-F_DqUDfSTpFEhedmhSgoRpPaud_Ek7_fJWznfpK7NH2cfvklTd4jSxgXcezyDgowuByjGevB8zhs5-0pSLfNYPDXOGzwYyJYz9ZfJVPWKNgMunT8C=s220-w165-h220-n-k-no"
+
+                "Rahatgarh Fort" : "https://lh3.googleusercontent.com/gps-cs-s/AB5caB9bsilO2saiaKAZjqZGDnv0dktYE0YjU4Wgpz0MRtidl4H0mg2p1PMy6UjPHF2-hCCq0HK-ozPZI3vZqlaDF_Cfl_AwPLfap8iNAPRIvjC-JGTV8PtYb1VjsFQc7Fmd9c2Ygbk=s294-w294-h220-n-k-no"
+
+                "Veerangana Durgavati Tiger Reserve": "https://lh3.googleusercontent.com/gpms-cs-s/AIMqDu06YZ-0hnKsgV9-AFt2EK9TUoXZZhpacDuurQAXvW1nKVU5Nsegm-_6SCWoh5ktlpfxK6AP53sHdRA7K4iuY636TN3XW_ec5FuJ9FBJE1brNqNGlzGzmHUhDvsZs6tZau6NiXvnYA=s294-w294-h220-n-k-no"
+
+                "Bhapel" : "https://lh3.googleusercontent.com/gpms-cs-s/AIMqDu1uQ4JhzTV2zz7lXdq2zt88ruYJIuDF0_Yh2Pv9sNXEgmSzyPj69e1w6Rcfad4Ze4ZmLf4Q_a-ez1QTfODvkBUowlKowStFBoQsGShGT2YsxfxRNen3LtnD6eXnlorLJE7RIe7UGQ=s220-w165-h220-n-k-no"
+
+
+        
+                }
+                "discription" : "Sagar is famous for several reasons, including its role as a trade and cultural center, the presence of Dr. Harisingh Gour University, and its beautiful natural scenery, particularly during the monsoon season. It's also known for its historical significance, including being the former capital of the Dangi Kingdom. Additionally, Sagar is recognized for its smart city development and being listed as one of the safest cities in India"
+
+}
+"id":"gwalior"
+  "activity": {"river, temples, heritage, rich culture, wildlife,waterfall,fort"}
+  {
+  
+        "image": {
+                "Gwalior Fort" : "https://lh3.googleusercontent.com/gps-cs-s/AB5caB_hCFJwEbpSq4Ab-Pcrvj20NBvphQkWRmnKlvrHiJAB0QoeLtkuFS9A9uk9O1oXmJkSkRVQlAAHTQJLPwVsyBCt0eZ7SalzoMaafAK2J7AXVcbIo_cgVGCnLVKfkLa3SlvKIFgNkQ=s294-w294-h220-n-k-no"
+
+                "Sun Temple Gwalior" : "https://lh3.googleusercontent.com/gpms-cs-s/AIMqDu2B-I7QvKksAq9gm4e33Q1YKYJ-0U29Mg7HlZZtHYIgIKhW6k7F32UMR1XwJHubk31md5tzZMoGU1WHNgLi4QuutaZmrt1sllbVfqQIf-D-rSwmhGblcQhzJ7QbDcraPUL8BPY=s294-w294-h220-n-k-no"
+
+                "Jai Vilas Palace" : "https://lh3.googleusercontent.com/gps-cs-s/AB5caB-eMwuj80gX1uDg0lVeWUHMha5TMGUoDa0OoDFpVKikLV591Q7zBO26gKjOfPcbt3UQz-Fea7wjnNOXa87CANMHDj7yRRM2DBY9imCJJDlgTpxjh4vizCwPcVYaZ34qZDh4cug=s220-w165-h220-n-k-no"
+
+                "Gopachal Jain Parva": "https://lh3.googleusercontent.com/gps-cs-s/AB5caB87PZF0ode8A2yqjHhg-semrOScoDCNiGlGQeMBdv4aXUHbFhVl14ZX9lJ_I5vkuGkd9QE1JYtD-I895Xp8LviCMS5jSR1m1qkThHVaqClEMjYFHZuw26c7WhIn9AgZtRMzDJ1mMXbUvYLN=s294-w294-h220-n-k-no"
+
+                "Gujari Mahal" : "https://lh3.googleusercontent.com/gpms-cs-s/AIMqDu3_ml_qz1QF4Ss4Kt2Xu4nP6UvoVC__re0IzUcFTmgKIT8Qmam1bLKW58ouWxQ2oJf1ECmcjSvFwP_JAYzVQZClWeqmJxxkhZYS5baJb4FO3P-3wORA0nD8Cgi4ZCzZBFbHdnEDLg=s294-w294-h220-n-k-no"
+
+                "Teli Temple" : "https://lh3.googleusercontent.com/gpms-cs-s/AIMqDu1wHg-aJJqV7l7VjwXpl7fPCwSr7hgG4gNnOiUyPtOAHAVJsQbrEpVg6V8x9CO7wnSEmewwP_VeG3B3ibWvVuA9e2iM5hWf_qE_NGGZqPjd1k7hFiS9dEQYm2PcSKXmMlcBwD6CVA=s220-w165-h220-n-k-no"
+
+                "Tomb of Muhammad Ghaus" : "https://lh3.googleusercontent.com/gpms-cs-s/AIMqDu15hcPSN9SlWZOIWt6Esi29oI7pTz4Af_k56UIb1tszPyRTHFc4JabOXHF56ToKnBMQs7PBK062drXIg4HiOuRHBMUQ-CCnypERLN5eWuSMumynOdHk0s6iVV4d0p2m_tt1uru6=s294-w294-h220-n-k-no"
+
+                "Rani Laxmi Bai Samadhi Sthal" : "https://lh3.googleusercontent.com/gpms-cs-s/AIMqDu06pOt89EJeDPTnIxadMXjc2j4hBJvTdRrnBeBo0vC8Uc8lVWRW7vsoFeKu39bAP-Ca6aNti0P8cQBf6Zyu6hrFbkA-qJamPyKr_RRW_eP683knn9tELNYn06OmrsgL7UPbd-ijaA=s294-w294-h220-n-k-no"
+
+                "Bateshwar Group of Temple's Morena" : "https://lh3.googleusercontent.com/gpms-cs-s/AIMqDu1DOEzUA-m3Wy8Cbz4gvi1LwdJ811-R-MAtneBuELo1J7SCD5CcOC9g_BYMorQsDnDdOuipjleng0sC4GGSq87czMFL4Hsl9F7lUQ7bFnDdpGZnGso8ENHQWe8SWc4qaCI8mdW0jQ=s294-w294-h220-n-k-no"
+
+                "CHHATRIS OF SCINDIA DYNASTY" : "https://lh3.googleusercontent.com/gpms-cs-s/AIMqDu2U_cTRc4m-Wwo-Pufszz8ESGVGyt_JRJR5m3akvMNRn1ZoHDIM-7-3AIJRpq3h5LJ-2eQhnAuwYYAbZwMNrKpjkFIR4ZJc0WbznoDp3Um5m0zIHxhVUJMj0114r0rukPjTdKUvFA=s294-w294-h220-n-k-no"
+
+                "Madhav National Park" : "https://lh3.googleusercontent.com/gpms-cs-s/AIMqDu0V_pApoeZ_hADL5Uv0Y8aYsj91-KpEigG5qWtRyzdLZUXjIw1JQYd7QYyN8daVR295SAm9wfe3wlw8OZlRoVFJlFfaBqvZlSDqcIDtPfYKxghhoUUzXqxATF7Z7W70X80uTO2p=s294-w294-h220-n-k-no"
+
+                "Gurudwara Data Bandi Chhod Sahib" : "https://lh3.googleusercontent.com/gpms-cs-s/AIMqDu1IU_hzQT34YVop7BSm3SOPpeAYzCWfwINOWiicsBWjBF6eclGgzrzLu05hxPrF_ZNM1yOdmUSpH5Z-tPjxKEfChohgvaRfU_dxxq1MOUnAJbj5kyVHkM7lPFvLK40hJ3CFs4Mg=s294-w294-h220-n-k-no"
+
+                "Gwalior Zoo" : "https://lh3.googleusercontent.com/gps-cs-s/AB5caB9Sg7WRJIOvuWi0TgrqwQCmDGy863ceo8ll3hj-xphOvS1o10mn-R5dtXIvwEE8wrFHMUTUw6U1OileRaS30FxZAAULAIAmkc2x_zId3xGH6dDiQnysQ4Z3GnYD1KQbTihR-QFf=s294-w294-h220-n-k-no"
+
+                }
+                "discription" : "Gwalior is a city in the central Indian state of Madhya Pradesh. It's known for its palaces and temples, including the Sas Bahu Ka Mandir intricately carved Hindu temple. Ancient Gwalior Fort occupies a sandstone plateau overlooking the city and is accessed via a winding road lined with sacred Jain statues. Within the fort’s high walls is the 15th-century Gujari Mahal Palace, now an archaeological museum."
+
+}
+"id":"sanchi"
+  "activity": {"historical place, temples, heritage, rich culture, wildlife,caves,museum,mountains,stups"}
+  {
+  
+        "image": {
+                "sanchi stup " : "https://lh3.googleusercontent.com/gpms-cs-s/AIMqDu36c1xM7hG5Ylp-z9V49HjgNc7ZOkbOBVYeP6IemLjZPLTcv13R68bqyG6ONghmDD9ByDpmCLK-5RMi0OofsWKzzzvUJpKh28DNpj4GF_J-Y6U9d-oncE7JUqwUFVguoUjvV-VuXA=s294-w294-h220-n-k-no"
+
+                "Sanchi Archaeological Museum" : "https://lh3.googleusercontent.com/gps-cs-s/AB5caB--SkJxL1Azo7GW0Qc1C5qLrmfunJgdZ9F805gz6P-a6RGgbdQry7TTirFiOglF_XegeplxKeNXkWcLPNdzme-aGdhdxOY9l5eu5pZ3axnf8l2iEnBqwm0YJWsY1fxwsUd55OpX=s294-w294-h220-n-k-no"
+
+                "Udaygiri Caves" : "https://lh3.googleusercontent.com/gpms-cs-s/AIMqDu1wpo-2JC18WzI_J5BMrqIs51gowCzd8_akSjKDZU-OIkRAyBCVr7njpeM3koZ79-2DSpPjGqkDBMWUDCFL5OGf-zHzhvF1H7NTpTbqrrhUcuexcaVGPdaDsKU7bzSEkagEsJ1ZjQ=s294-w294-h220-n-k-no"
+
+                "Dashavatar Temple": "https://lh3.googleusercontent.com/gpms-cs-s/AIMqDu3I2uMQl7J2z4zlK8xGuLeRooRfMdkGNWMT8wiMe9DKY-s9pavjcRjV3jGRoqOG_wEe5gwy8AMHV3pgq0DSgbYoTuyzSxs6Ur7pnnXLz5Ombjg8_nN0WSCHQp5Zq8Jqr9ZLNOQ=s294-w294-h220-n-k-no"
+
+                
+
+
+        
+                }
+                "discription" : "Sanchi is a religious place with historical and Archaeological significance. Sanchi is a site for the numerous stupas which were built on a hill top. The place is related to Buddhism but not directly to the life of Buddha. It is more related to Ashoka than to Buddha"
+
+}
+
+
+"id":"orchha"
+  "activity": {"historical place, temples, heritage, rich culture"}
+  {
+  
+        "image": {
+                "Orchha Fort,Jehangir Mahal " : "https://lh3.googleusercontent.com/gps-cs-s/AB5caB8oDY9bgAEYcDQZrwFQ579JqtudYSqUTbrNTzpQlKQKnpo-ecSltdkUzMcxNyGOO4iBE1MvzhX0ZHXwt2Umx2115SRvDch-ewAndEt0hXxYvYhs852itLE2nS5WiOPQiPhG4Joyaw=w270-h312-n-k-no"
+
+                "ram raja temple" : "https://lh3.googleusercontent.com/gps-cs-s/AB5caB9T0Qhagj1Zs11WmjSdXci9JHDdPyiIOVRE5TNl9CLI-RKboZvpRPPR9FFNChQsTsRxG5I_gL6lvJ4AgVS3mZ7qJZzXJeTRJxn_iVWn8MfDC6Niba5hykqMkNXq5St20RRbFvEvWA=w270-h156-n-k-no"
+
+                "Raja Mahal, Orchha Fort" : "https://lh3.googleusercontent.com/gps-cs-s/AB5caB9AeyH96JlgHQ-9PrzqTCh_nY3PWjr5UAvzebRjGntXy0Ez5H6y49z4RoSnrfS81RxO6Ks266O9bCVTSt-mzAls5A1P889FvILx77038DknI9KZCxHOAYofHEWABMesz_Joj4_q-Q=w270-h312-n-k-no"
+
+                "Rafting and Boating in River Betwa": "https://www.i4utravels.com/wp-content/uploads/2020/05/15.jpg"
+
+                }
+                "discription" : "Orchha, a town in Madhya Pradesh, India, is famous for its rich history and architectural wonders, particularly its well-preserved forts, palaces, temples, and cenotaphs, showcasing a blend of Rajput and Mughal styles. "
+
+}
+
+"id":"khajuraho"
+  "activity": {"historical place, temples, heritage, rich culture, textile,looms"}
+  {
+  
+        "image": {
+                "Sri Aadinath Digambar Jain Mandir" : "https://lh3.googleusercontent.com/gpms-cs-s/AIMqDu2h-hDrYqHftCYxIgAo9o-h72ekIsMcTQ7KD2EkSTEP-NVSd71MOUgy7xZhXzZYNLiNiWudqwn_EcmcwsDXX9YTemhaVY8XWFcflTWwan6AeQPddvDhn9ecxOSp3QhMjLM4LKZYdA=s220-w165-h220-n-k-no"
+
+                "Khajuraho Temple" : "https://lh3.googleusercontent.com/gpms-cs-s/AIMqDu2hFTKqW5NcuuQyvQF5iJa2YU5Yvh0sth0fUMbAlBvbLf93lhh4XmjTo4eJhLaRO8erLzHowUfpRcGKxPSRahOHHd_Xz3WFwZ9osbaRaoAO_fSZ2ahWA2uXfnFqmWHSTUb_caPfsA=s294-w294-h220-n-k-no"
+
+                "Matangeshwar Temple" : "https://lh3.googleusercontent.com/gpms-cs-s/AIMqDu1zPdErj5pZYR7G0cUga4s98CgaSyhy6YtyXEBbxMK75oEaI7QnU_Ysgli7lQlSoNRQa2mHonBHaJ3-c12CUySRJkyt_8bVRQ-hZo7h-Gk0zEksl-AVt-fa18eJr65aWqI9dc4=s294-w294-h220-n-k-no"
+
+                "Khajuraho's textile & looms": "https://lh3.googleusercontent.com/p/AF1QipO66hEA8DGZV0xo6fNmieiWzbR7YkQ10c0cONLb=s294-w294-h220-n-k-no"
+
+                }
+                "discription" : "The Khajuraho Group of Monuments is a group of Hindu temples and Jain temples in Chhatarpur district, Madhya Pradesh, India, about 175 kilometres (109 mi) southeast of Jhansi. They are a UNESCO World Heritage Site. The temples are famous for their nagara-style architectural symbolism and their erotic sculptures. "
+
+}
+
+"id":"chanderi"
+  "activity": {"historical place, temples, heritage, rich culture, textile,handlooms, saree, mahal,monuments"}
+  {
+  
+        "image": {
+                "Badl Mahal Chanderi" : "https://lh3.googleusercontent.com/gps-cs-s/AB5caB_y0OspbfCl1vvdsCq-xWGMCK9PSE1OUIZuRr4rOOqUxI9yNY9R1PGSm0GYuW1y8x4kT8M-bhowEm-JH-Sv-hY92KrBKclH0wiA1juMkUGzrnhs3EpfyV4F0ZhS_yrRk7pqt7o=s220-w165-h220-n-k-no"
+
+
+                "Jageshwari mata, temple" : "https://lh3.googleusercontent.com/gpms-cs-s/AIMqDu0ajr6RUF2vNMI5hFca9QCasoZWbX9PaFrfTyXssEimpWvQtKg-h91d9t5myvwC8HAtY2ISv7zYMgOE5lmVuCitIICFh0Ib6LEebB73bd2AVhO41p57M93dG9ZAOmi-UQe_W8jb3g=s294-w294-h220-n-k-no"
+
+                "Raja Rani Mahal" : "https://lh3.googleusercontent.com/gpms-cs-s/AIMqDu2UdmBgSEEFIt7k1syPOjvxMi7VRUh1HspSsrj8po-dTcHzi2mUvoEOIhnAWMoV_vPm-3OxSbF6nJYExuIWnMchmGay5ZA99BLhn1TuX0orseQ_SOvuG-jBt7Uh4WSqArPYeNy5=s294-w294-h220-n-k-no"
+
+                "Kati Ghati": "https://lh3.googleusercontent.com/gpms-cs-s/AIMqDu2GyHkL8rVW4DCXOx4znSpsGifk5ixMuaaBOPGeGew4C4DkzxoBZZEH2y9vPYtV3DIQ_ELFbQPXIccpGu8Xn5weaux5SpZYK1Isn2cAWeGryt7maQvmOrB82VZNputfrsXx5U-CZQ=s294-w294-h220-n-k-no"
+
+                "Koshak Mahal": "https://lh3.googleusercontent.com/gpms-cs-s/AIMqDu2i22JMSBhBqFkg-psFguhHtW4xltDZ9-LH7JmbKfw5f4mXckxeiOXA-efvDqRDzzfzIW0xMihxNRJ8SssnomEVxv3e7X1Vihl_hO0VDx1_Jq3SoLVbnlphQ7UDGd5mCYHcdlJy3w=s294-w294-h220-n-k-no"
+
+                "Shahzadi Ka Roza": "https://lh3.googleusercontent.com/gpms-cs-s/AIMqDu1VIsyKfat59Rzyqb5iwavYquv3iv92IbhkbYrTVFs8KAMCEpjjiW04H17cJeHFkZTmcT1cA12Dx_TmGyWCnRQ03Kxjoj3MJoKHoYlUatOT3rdsJfXctTm-54ig3O_ufPpDxLeO=s294-w294-h220-n-k-no"
+
+                "Jama Masjid":"https://lh3.googleusercontent.com/gpms-cs-s/AIMqDu19wnhEa_As9Ty82aNGMdeZPkKQQpxaMpZCH-4E931_q0TGsu-5gw9R1lDGEnPYEIbQt0SoiIvgFkvKolgZCE5s5wAJy4VjcNg1j_3VBHOsJxj2f2IRogrIVfg2FF13o0T6BuJ0=s294-w294-h220-n-k-no"
+
+                }
+                "discription" : "Chanderi is renowned for its vibrant handloom industry, particularly its exquisite Chanderi sarees, dupattas, and other garments. The town's artisans skillfully weave a blend of silk and cotton, creating intricate patterns and designs. Beyond textiles, Chanderi is also known for its historical monuments and cultural heritage."
+
+}
+"id":"mandav"
+  "activity": {"historical place, temples, heritage, rich culture,caves, mahal,monuments"}
+  {
+  
+        "image": {
+                "Jahaz Mahal" : "https://lh3.googleusercontent.com/gpms-cs-s/AIMqDu2Xh8F5DJtIMpn6OLuPeEDRn-GTqbum2W14URVSIAzNu7KdXv9y24qMou5DReEbN8y4O0HxvH7aGT1HMpUSCc0xczuisqFfCDTEP_ciWbQMNYIhONQxMDXVpyLO4ZPtvdrOMo911w=s294-w294-h220-n-k-no"
+
+
+                "Hindola Mahal" : "https://lh3.googleusercontent.com/gpms-cs-s/AIMqDu1hDZbADj7tMvZ9QXDPlEwTTC7kV30eO1FhYfpKR2DewVyjJsAhizA7H29vlnFB1SsVFNmeFGvbOZKfhbPvEuyvfcyXevHjlbNEp4Pru7niHKL4IgQNul_mUea8QumNzMPh4Ds=w449-h300-n-k-no"
+
+                "Baz Bahadur's Palace" : "https://lh3.googleusercontent.com/gpms-cs-s/AIMqDu00_k10M8_3EPcCM4E-DDI_YS6Q6czYRYfEXBeogDQbVSGaqJyS-B1OZCKPGU9VyIc2M0psWSBA_6Sev9jwBvkYZ6QhIHqPICV0pJfZp5arCsz8QfgUyh7Qk5NGFcRLxjXvPTqPlQ=s294-w294-h220-n-k-no"
+
+                "Hoshang Shah’s Tomb": "https://lh3.googleusercontent.com/gpms-cs-s/AIMqDu2w9VYpCFTv3utIplzP1Hd3NFLVicZDMVR97Sv-3wTC9TaUVuNqN3Jf14_yrd_ODaoeSa32wyhIV_x61VY1iR_ZJs2RzhiRvPPe_dx1Kn3IGKhvDUCHtsMJx7fJAxmec8V7_x_2=s294-w294-h220-n-k-no"
+
+                "Rani Rupmati Palace": "https://lh3.googleusercontent.com/gpms-cs-s/AIMqDu3q5cqkVpNb1ibQ1Y0KhOnwHG0JLH-_A8XXPVo2TvU2DUDxHPdU6q0662xkYeZTKlHVnWyc1RGQz77vajg9Ue7e2GSTsKOXV3472NbgRFmq484FhjwbVztVgjmsYZnKE7_BUdg7=s294-w294-h220-n-k-no"
+
+                "Champa Baoli": "https://lh3.googleusercontent.com/gpms-cs-s/AIMqDu0TyWX1r-1yyzZLGFLWE3hbawvDOHN6XVq4eZ_Vqs02Ju9Sd_8P1W1xbfZg7bsnIynf4vrTVW-11Ye5781Ec5MA5BsC8-VqFjl7qKKyjz-Bg1O3_n0d2pufwl05_Bst8iLfrN0K=s294-w294-h220-n-k-no"
+
+                "Lohani Caves":"https://lh3.googleusercontent.com/gps-cs-s/AB5caB_qGEv8PjwpbvPWFOdqyEZ0dMUrdQyzU5FiMSCHxyUVdJ9SxoARO1v-suWw7HxmEala3UEO-y08HKB_tL9Xl3KpuzEJTLkOIdVve50q0IZcIN-Yzc8-ud3JBH3GY31sMWSsTU_L3Q=s294-w294-h220-n-k-no"
+
+                }
+                "discription" : "Mandu, also known as Mandavgad, is famous for its historical significance, impressive architecture, and romantic legends. It was a prominent city in the 6th century and served as a seat for several kingdoms, including the Paramaras, the Delhi Sultanate, and the Ghuri Dynasty. Mandu is known for its grand palaces, forts, reservoirs, and other architectural marvels, making it a popular tourist destination in Madhya Pradesh."
+
+}
+
+"id":"dahmoh"
+  "activity": {"historical place, temples, heritage, rich culture, textile,looms"}
+  {
+  
+        "image": {
+                "Bade baba jain temple, kundalpur" : "https://lh3.googleusercontent.com/gps-cs-s/AB5caB_gvUo-a3yTyOwzDJzhdkKNoClmlTYN7bvqYE5-SAZveAP7Gokzu21NYndEuxnGCpCtYGRukRTaqBkybBdPIsOwpvi-ovZsss4-j5_JU68zuJXaaYhUK6VtLUn9GpnPbVK5omLcMA=w675-h390-n-k-no"
+
+
+                }
+                "discription" : "Damoh is a city in the Indian state of Madhya Pradesh. It is known for The Bade Baba Temple at Kundalpur, a Jain pilgrimage site. It is one of the major cities of Madhya Pradesh. The city is also the district headquarters of Damoh district. It is the fifth-largest urban agglomeration in Madhya Pradesh. "
+
+}
+
+
+"id":"maheshwar"
+  "activity": {"historical place, temples, heritage, rich culture, textile,handlooms, saree, mahal,monuments"}
+  {
+  
+        "image": {
+                "Shri Ahilyeshwar Temple" : "https://lh3.googleusercontent.com/gpms-cs-s/AIMqDu11V5p5fby4EONzMw1bHQrNmovIu8gow3pzs3BtRRYcmQQshIVjfp8MHjSLciFZGMYbprDElK5ghC8EvDYcbepKN4b6hg7wuOMfSKcyj2b97y_bOc0PHhVlD5qjhh2ek_15996T=s294-w294-h220-n-k-no"
+
+
+                "Shri Raj Rajeshwar Temple" : "https://lh3.googleusercontent.com/gpms-cs-s/AIMqDu3rlxUlmC4l8FX11mirJVW0UYezceRVaPl0S4P1lIg95x9xCKvE7yGip7zGdDDasfhPEuhwIAOUZ_kA_fU4XrQVhtIshTTSh90B8uaqOVNWGOFbHbc9cfn4vgOivl9OuGlO4Pk=s294-w294-h220-n-k-no"
+
+                "Narmada Ghat, Maheshwar fort." : "https://lh3.googleusercontent.com/gpms-cs-s/AIMqDu3iezvTh73_kt4tdMO1mTTQgCFJdE961U9lb94aQNl2tvLI0ZRbGCav4RqEzhbyTg3J2BetHxknxa5XycXNFw2zY5NsMBQ4CFH8f1hD3tOlI7i302PDxDGoFEeMC6rL5-GHMim8Jg=s294-w294-h220-n-k-no"
+
+                "Ahilya Devi Maheshwar Fort Maheshwar": "https://lh3.googleusercontent.com/gpms-cs-s/AIMqDu0xJWHjKHAHBGhTY08FZ9qdrYVQguBlUEHpnS015hsqsK-FXVxlc3xGBhfRO4aIkxUlDqrxVhG7uVZRNjfTVHrzFB9Pp4If_lYHxEB4Ac-F1iWItab-HW8tRmviw8XXgKMqrYC6cg=s294-w294-h220-n-k-no"
+
+                "Rehwa Society": "https://lh3.googleusercontent.com/gpms-cs-s/AIMqDu3ZptfPZ-cSmu_i-X3HKnHB58UpL2srN2kWh48TzMXsTHm-16hksABYQ6ge2QoBN1LlxwFd7w9vBtXkfCM8mUpN6V8VTXgd5-L1YcvYeE3hzlWiHGHrfnMrPK0am6QDVzaULwAh=s294-w294-h220-n-k-no"
+
+                "Shree Pandharinath Mandir": "https://lh3.googleusercontent.com/gpms-cs-s/AIMqDu3vrXf8c9a8WexggfPI_F6h9RLjpcjsTg5nHOiDAjvAS78UmBFBHgNLnO5o66bs17RQOvk5RxHJBMR7ce_Vadjft6oQzq1XFo75JxrHUTEHzMLp_gIMzZ3Hjt8q-q5B5XxRdJhU=s294-w294-h220-n-k-no"
+
+
+                }
+                "discription" : "Maheshwar has been a centre of handloom weaving since the 5th century. Maheshwar is the home of one of India's finest handloom fabric traditions. It is noted as a centre for weaving colourful Maheshwari sarees. It rose to popularity under the rule of strong maratha leader Queen Devi Ahilya Bai Holkar."
+
+}
+
+"id":"Amarkantak"
+  "activity": {"historical place, temples, heritage, rich culture, textile,handlooms, river, mahal,monuments"}
+  {
+  
+        "image": {
+                "Ancient Temples Of Kalachuri group" : "https://lh3.googleusercontent.com/gpms-cs-s/AIMqDu3ODRTAk9DTBLthFR0ITcltY_QRycmnAyII5uJza3JqDoqmLm1JhlQSnrI0uk-S1rIGH6DJQSGYj1IWjnLL5evo2KdwnHhl3Y5EJQBqP3efzERDGAiZi4UMLFD_1KUv6_imWXqD=s294-w294-h220-n-k-no"
+
+
+                "Mai Ki Bagiya" : "https://lh3.googleusercontent.com/gpms-cs-s/AIMqDu3v7egd5sBdHN-czGjrIJtCJ8Bi1rxmF_-XpfF9GeJOfE52mkETKhBx_l1VqoeXAjN17sGWX8sIOyw7xko73iqDJJA969Pl-nEIB0k4mo6JHxpkSlGZmT8g0mHo66CI8SITESfS=s294-w294-h220-n-k-no"
+
+                "Shri Yantra Mandir" : "https://lh3.googleusercontent.com/gpms-cs-s/AIMqDu1owyWB2rFflq2zXILGwX5joO4XYstf4fc7JDiGN18kP16oYWbBkAkt_S1ioC06pJR7T887ScedmLocvvzrSa3FelcNr8BOR8dm32rtcxomS6ljRsg4rB-KcfOMhsBTgBZKNG6d9A=s220-w165-h220-n-k-no"
+
+                "Narmada Udgam Temple": "https://lh3.googleusercontent.com/gpms-cs-s/AIMqDu1EpxGMNnTDCauWAVETIsWbOILOOKWjPt2KigF4dvMOu7k_ml7e7-sWHssOZe0DVBw0kwVRpn7NXorEAZqHaU_Bqk1AffBJ4bYXmrwCk7Lygv5HWBi2y22hdxIai_HH9jmvPI9P9w=s294-w294-h220-n-k-no"
+
+                "Sonakshi Shaktipeeth Temple": "https://lh3.googleusercontent.com/gpms-cs-s/AIMqDu0tp5otGv5zsgx6B9uPbNA_FEaU72zBiXEnWlynsgmuZKWTPk2aqROgL24o6XXH8A7dkDltMAnEdDIkjYKngCgbF0indK-JfHLBk50-shENEdYHKGeMSUmDcYh1vp2I1wYgW6Rq=s294-w294-h220-n-k-no"
+
+                "Sri Sarvodaya Digambar Jain Temple": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ4d709q0IJrFzIqFjGr8GXIMjQOhV_q9CORoEvvy6FMQ&s"
+
+
+                }
+                "discription" : "Amarkantak is famous for being a prominent Hindu pilgrimage site and the source of the Narmada and Son rivers. It is also known for its natural beauty, including its lush forests and the meeting point of the Vindhya and Satpura mountain ranges. Additionally, Amarkantak is recognized for its ancient temples, including the Narmada Udgam Temple, and its cultural significance, including traditional handicrafts and tribal culture. "
+
+}
+
+
+"id":"Panna",
+  "activity": {"historical place, temples, heritage, rich culture,waterfall,kund, river, mahal,monuments,wildlifes , caves, parks"}
+  {
+  
+        "image": {
+                "Pandav Caves and Fall" : "https://lh3.googleusercontent.com/gpms-cs-s/AIMqDu0zP4zNVa_fznOOVFrWdJOnmbcAv7GpKzzGFA9h65KibPboxBBQnXWw-Mwl-78N-u_YHCcuduNQ6QkuxmlPnAEiAFUrB9YjmGlna5UDLlZBNF3yjscTNsWWFRG2k0JlNBj3_7SX5w=s294-w294-h220-n-k-no"
+
+
+                "Panna Tiger Safari" : "https://lh3.googleusercontent.com/gps-cs-s/AB5caB_l_YMxdJUHnQA10GbWC4WU3c8A03pXD6z_2NTjaMDfozW8eoXaqva7V4b1_3kui0KZsXnuHK5QrZnJw1TvOGXHf7QmX_yKqI6np5iSACtVJzYMSok9zbqj36tf9Kto-0C5YiNN=s294-w294-h220-n-k-no"
+
+                "Brihaspati Kund" : "https://lh3.googleusercontent.com/gpms-cs-s/AIMqDu1UfCpsHYx_U5vgm7m_XVaNh1ZuVrEJUx_2TjLNZbRqLQJdS5AA3FUGkaJ1csKR6nznsxdIMpZrSgbP6T03sq7iw5yNv9AJkQVaBYQmalunnBzs9e9R0bkBqwWyI8ToxMghs8hi=w407-h300-n-k-no"
+
+                "Panna National Park": "https://lh3.googleusercontent.com/gpms-cs-s/AIMqDu1lR_F0D0XkN4Ng49xTS_ZQdWXLzOS-57oP7OfR8drwxPGpXHXoWj-ex7DAI_hhyItoE1KNIVzQNCaqyY6YKtoyBukZiFkEHIF3Gh1_WdCQbqbtp-FrMhJ2C-YcQq0SLfz0r7nx=s294-w294-h220-n-k-no"
+
+                "Baldev Ji Mandir": "https://lh3.googleusercontent.com/gpms-cs-s/AIMqDu0sTtOmkHj-oCkXSEY-VIzKr0HNstRQGLPpox9BBaB1RS6u234FAQi0bzoABxTfYICsC37QpgOvU-blihBjD9OEmBweJUl9DYRwg8wiJcvPLvuI3phP5NlELXMSlsxoOvBPYhZ9dw=s294-w294-h220-n-k-no"
+
+                "Ajaygarh fort": "https://lh3.googleusercontent.com/gpms-cs-s/AIMqDu2y-3VZj86jTw38a4a7Y-RwoBEYM4cEc-HNzL8e8ueUroHjAzpfTsIHcF1wcP-Bbf_aILABpxwCM3LFMp9wgXif9NEnntIzFQI05_3uxu1d_cbuljKB0TgQCeTLf4oV-BRqZuDkaQ=s294-w294-h220-n-k-no"
+
+
+                }
+                "discription" : "Panna is famous for its diamond mines, particularly for being the only area in India with diamond mining. It's also known for Panna National Park, a popular wildlife sanctuary and tiger reserve, as well as its ancient temples, including the Mahamati Prannathji Temple. The town is sometimes referred to as The City of Diamonds."
+
+}
+   
+"id":"Narsinghpur",
+  "activity": {"ghats,temples,ghati,waterfall,minning, agriculture,sugarcane farming,cement production"}
+  {
+  
+        "image": {
+                "The Bramhan Ghat" : "https://lh3.googleusercontent.com/gps-cs-s/AB5caB-qoJZHRtySf1nwNHpUU9PrjSoUSqnCSp8SdWKorI0hCgbjYENbo8dHOBsCVAbb-eX7tBQBZXvdCPUdJHrHWxfVpKeuwtIDOtvDkCvPVMsgQ1m1H_uNnOvKCrsVVx6aI4cup06c=s294-w294-h220-n-k-no"
+
+
+                "Jhoteswar Temple" : "https://lh3.googleusercontent.com/gps-cs-s/AB5caB_8GambVqsRGj3xH1CRCkBd5XzZdgOt38TNLNkFy2AznGeMaqG46_GoB2gSPSF1WwO1RuN0mailbrrMCumYUgZyWgKPFhgkkQ8QapxKSnS3KpSMu1btDWhXYJ_UcON1ElsbBy4T=s294-w294-h220-n-k-no"
+
+                "Damaru Ghati" : "https://lh3.googleusercontent.com/gps-cs-s/AB5caB87CKWBApbNc197le6Pbm8BmE0GOPWl5-WUzrde-Mnq4SKXI_kk3b3fWwJzXeRV29Z5W-0A8eDDEA9Oz9KNksMJTFK3QtJys_RA9_cEnhhlicFvVNo6HYuX0k4gAnAUcNLKhQY=s294-w294-h220-n-k-no"
+
+                "Tong ghat water Fall": "https://lh3.googleusercontent.com/gpms-cs-s/AIMqDu2oqh-GAzncoxE5ASBIL_hxpWOsTQphC56-I3fcFgTAFBw2wFWMCCrfi91ikjY2SpcRyQUdSYEVv1VY4vPKmU2v5gUqu3Xshxi7Pt2ZHl1qzPTOhr4mN-yngumrQlqgMgDwYjI=w400-h300-n-k-no"
+
+
+
+                }
+                "discription" : "Narsinghpur is primarily known for its fertile agricultural lands and rich agricultural production, particularly in sugarcane farming. It's also known for its industrial development in sectors like mining, cement production, and agriculture processing, with establishments like the Narsinghpur Cement Works contributing to the local economy. "
+
+}
+
+"id":"shivpuri",
+  "activity": {"mahal,monuments,heritage,culture,wildlife,natural beauty,temples,waterfalls"}
+  {
+  
+        "image": {
+                "Bhadaiya Kund Shivpuri" : "https://lh3.googleusercontent.com/gpms-cs-s/AIMqDu3stLWULAE1mTtxazgrL-C46kyt8tuLe_kdJYgSRLGRIpSXjwVBARwKhjeurHIXp10jdJO3ypYtax-a3p-XaTG9Sn9eLhcVvg52XUlcK3Qa51Jylq8Ipko4FbSHlEtKzIX_gtxW=s294-w294-h220-n-k-no"
+
+
+                "Madhav National Park" : "https://lh3.googleusercontent.com/gps-cs-s/AB5caB-Kc-podJOxJhm3iNShUvZG10rQsaDGpMOoBARRVvYb7eG_Jv_LmMuleRAOZGZ2zK0Oc6ZBmD1avyLsn5WufSBuzmU89AvFJZ0Zz-SXtE07S1R02NfXHa0TI2r-kG8VnqmAsMn_Hg=s294-w294-h220-n-k-no"
+
+                "Bhoora khon waterfall" : "https://lh3.googleusercontent.com/gps-cs-s/AB5caB9afq-ZLJT_hg-ZeydOzCRNEF2XKQWfg1EI0tRpkY6MnQ9RJPyg1vesZp2-nvresCwl5r9wy5FBcm8cImua4HPdJ9piPfGmjTz4obZrqJjyZJcbD9iBDyuKoTb6POIXVTURUa4=s294-w294-h220-n-k-no"
+
+                "Survaya ki Garhi": "https://lh3.googleusercontent.com/gps-cs-s/AB5caB-_VSr8_cEw03myyP6kbE7fSO0oB7Uxt6Z4YAyb5EBnXw-eDttkyImFnYi93OvMsf7WGO5161uwK5Uk0Qn1TfgTs0LCr-amvYxErb4RPmSTJ8slAUIM7f9ZJGKvorbDQp8lfd0w=s294-w294-h220-n-k-no"
+
+                "Narwar Fort": "https://lh3.googleusercontent.com/gpms-cs-s/AIMqDu3rZPZw77tzx0QyVIeU6D1uGiXIuDpBQR4J2v0V5tylBBesQAypnxo4a8xLOyrSqy9TP1jaA46iePuPubd2-7gpHSZ5YZhPjMHJ9spIzJDfBrjofEh9rHBXaJoYovC8jvwPe9k=s294-w294-h220-n-k-no"
+
+                "The Chatri ": "https://lh3.googleusercontent.com/gpms-cs-s/AIMqDu1GHOhMch8KXb8vz6iaILIeahBpJsuCHk0xvz-y2xcRk9vqJlav_LvzldAuHi9n6zLERNI9w-xiBPLYxrouPz_YmZy1IyNJRQNlbN0tndg3D-SYwW05rYO7UtJ0SUh37CPkxOy03w=s294-w294-h220-n-k-no"
+                
+
+
+
+                }
+                "discription" : "Shivpuri is famous for its rich heritage, natural beauty, and diverse wildlife. It was the summer capital of the Scindia dynasty and is known for its Chhatris, Madhav National Park, and Karera Bird Sanctuary. The town also has a significant historical significance, with Tatya Tope, a leader of the 1857 rebellion, being hanged there. "
+
+}
+
+"id":"rewa",
+  "activity": {"mahal,monuments,heritage,culture,wildlife,natural beauty,temples,waterfalls"}
+  {
+  
+        "image": {
+                "Rewa Fort" : "https://lh3.googleusercontent.com/gpms-cs-s/AIMqDu3dtXDI_U03QI3zGujO5kWmxoOyIdeE-5MgG_RvzSyJYSjZxpwv3mKr-XjQ5XO36xJ33Lgo__c8Dmegol964fA_Yj4Jb238JYf539rNvAAM-53SbaZ1pFImhdYwwIZsch8xrH4Iww=s294-w294-h220-n-k-no"
+
+
+                "Bahuti Waterfall" : "https://lh3.googleusercontent.com/gpms-cs-s/AIMqDu2IZZxB-BHhS0hU1iHOg8PEVCOwxBXAVZY9JGX_GiTU5juj5pIuvXxcqB2y7sVU7zD_R4V1a5DT_HJiFjGbPMc4JHh3wNp9xcDwtDERCEJgRLQDNNsoH3eUmwjdZ7F2NbZafmw-8Q=s294-w294-h220-n-k-no"
+
+                "White Tiger Safari" : "https://lh3.googleusercontent.com/gpms-cs-s/AIMqDu03ScBMW0AyF2kKQJyVzmC3A5lHaQjrXfUai_PoWbaBi3TeC3Rch94Hgv-6r0pcfHUN1RMN2DP78sRMHp9Ke1tMVfvKt_6KcaacBWMUqutwkespqUQD8T2nwnox9tOlPpEO0YeQ=s294-w294-h220-n-k-no"
+
+                "Chachai Waterfall Sirmour": "https://lh3.googleusercontent.com/gps-cs-s/AB5caB8a7MOj1AOvJjPU8ykjY-QDbDlm9fwdph6ipAsrjkSnqATp9UHV-ocE3VF40H3BKkmii_o9VaQBU5uihb6kNhbRy7FYXve6FaoHNXQ7sIu696YEYU-cPQBYrNdGITnOALgfT6xO=s1360-w1360-h1020-rw"
+
+                "Govindgarh Palace": "https://lh3.googleusercontent.com/gpms-cs-s/AIMqDu1RmjiOE6ZoeNAJrL3T2-dIESh_xf2CgmHm9tYQCzjuNnUFJ363_EQOlBTHF7U-2mJDSniSz4jYyCofJBAvl29BI7UBU1YCSi4MT1t-c6f1JQQt79b76XQ72_7S-SuOFuYO3dV2=s294-w294-h220-n-k-no"
+
+                "Keoti waterfalls, Sirmaur": "https://lh3.googleusercontent.com/gpms-cs-s/AIMqDu2EeHazZSgemGxJbOuY18r8kmfxDm9bgTaKOtoh1Bq_FQnRNsn_2ABnbjq-LggSLI-Y5JJHczQyZFpHAcvgoaXRhuAHAQdeUBmlJ9yCYJ86Ho7FQdqwayDQY2UOZ8xsS_AKNrLrHg=s294-w294-h220-n-k-no"
+
+                "Venkat Bhawan Palace" : "https://lh3.googleusercontent.com/gpms-cs-s/AIMqDu19tICtsfESQPrnGL3g2uLyyhFMRzD5IhRyAOqMCDnkyxwfPtRBCl0A_RSJY4hVE871_NDzt3tYFHK5fT5tc9s2qCnbOsIpA4JUbVfIyAhkxuAV1k-N_jz9ZrpXcYLMtw-GqcoC=s294-w294-h220-n-k-no"
+
+                "Rani Talab(Rani Pond)": "https://lh3.googleusercontent.com/gpms-cs-s/AIMqDu0B39O9h6-yK1Yzcg-0HyFJ0kAfnGsfcGAdKzxhp0vD8O529hLaFw5m4JaPeN1YJ8Mk4_bANHe2Hna_NOLVmY8TKjBfZbEar3PWapvzgbuo4XseV2CMofppLITEWq5dkaFdZV4zK-0EgMo=s294-w294-h220-n-k-no"
+
+                "Deur Kothar Buddhist Stupa":"https://lh3.googleusercontent.com/gpms-cs-s/AIMqDu2l9CHL0s0GZKxtIFlNQUrDlULS-P5hUm3QQF0XGfU32iiImOtg72GYNF_tvKk2uPXGtVogLPLR1mqSlLsPn9EPPndBOkHeqXB-eTYuoZmy7OJ_TIdN7ioI0AqiI4DnMfQ5SNsDRA=s294-w294-h220-n-k-no"
+
+                "Purwa Falls":"https://lh3.googleusercontent.com/gpms-cs-s/AIMqDu0hKlxbHE0969bS2O41_QkX8ltrCfx4SZ3t9bifkgMiRvcCKHwybVP2XtXwUf55Z8S0lL5zpRA0mIa-E9Jt-jcyivrnpgbetEnzZJBI0MDyXHeTBaPpo6a89SDrBBponNnoq1bkYA=s294-w294-h220-n-k-no"
+
+                "Paawan Ghinauchi Dham": "https://lh3.googleusercontent.com/gpms-cs-s/AIMqDu0kLhIwi_TK8cs-ohunws-cd1ql2UlueZbBf1aotdMZkM0Xl6R0ZHu9KxpGSSsqR6l1FCKpxR8iXtaV0Mo9z-GZJ_8DlSfvrlF4kImOln71908TAe2KunjBJFqvs1PxzlUMZ2m4FQ=s294-w294-h220-n-k-no"
+                
+                
+
+
+
+                }
+                "discription" : "Rewa is sometimes called the "Land of White Tigers", as the first White Tiger was discovered here in 1951 by the Maharaja of the province, Martand Singh, in the nearby jungle of Govindgarh. Rewa was the capital city of a former state, Vindhya Pradesh. "
+
+}
+
+}
